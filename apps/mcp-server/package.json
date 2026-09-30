@@ -3,9 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsc --build",
-    "typecheck": "tsc --build"
+    "typecheck": "tsc --build && tsc --project tsconfig.test.json",
+    "test": "vitest run --root ../.. apps/mcp-server/tests",
+    "start": "node dist/main.js",
+    "start:stdio": "node dist/main.js --stdio"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.31.0",
