@@ -10,7 +10,7 @@ Integration branch: `rubin/tunnelvision-integration`.
 | --- | --- | --- | --- | --- | --- |
 | A — Mock data | `41d6/tectonic` | `mock-data/`, `scripts/mock-data/` | Merged | None | 80 sources, 50 employees, generator validation passed |
 | B — Database | `6372/tectonic` | `packages/db/`, local Postgres configuration | Merged | None | Migrations applied; dedicated integration suite exercised |
-| C — Ingestion and memory | `98d8/tectonic` | `packages/ingestion/`, `packages/memory/`, `apps/ingest-cli/` | Running | None identified | Pending |
+| C — Ingestion and memory | `98d8/tectonic` | `packages/ingestion/`, `packages/memory/`, `apps/ingest-cli/` | Merged | None | 47 deterministic tests passed |
 | D — MCP | `cd3a/tectonic` | `apps/mcp-server/` | Merged | None | SDK transport tests and local discovery |
 
 Worktrees live beneath `/Users/rubinpaudel/.codex/worktrees/`. Implementation
@@ -73,5 +73,11 @@ running. Individual commands: `db:up`, `db:migrate`, `ingest:nike`, and `mcp`.
 `pnpm test:acceptance` compares the semantic oracle with the real HTTP MCP
 responses across all ten tools. `--reingest` retries unchanged inputs twice
 with fresh repository instances and verifies stable database counts. It never
-resets the demo database. At 20:29 UTC the listener's discovery passed, but
-the initial full acceptance attempt awaited Nike ingestion.
+resets the demo database. Live acceptance passed all ten HTTP MCP tools and
+all fourteen oracle memories, including provenance and semantic relationships.
+Counts: 80 sources, 80 immutable versions, 50 employees, 261 memories,
+287 evidence links, 31 relations, and two Abel open issues. Abel has 15 linked
+memories; mobility policy is shared tenant context linked to his compensation
+memory. Two unchanged retries with fresh repositories preserved every count.
+The full merged suite passed 88 tests and strict typecheck. The MCP listener
+remains at `http://127.0.0.1:3001/mcp`; external tunnel setup is user-owned.

@@ -42,16 +42,20 @@ try {
   check(discovery.tools.every((tool) => tool.annotations?.readOnlyHint === true), 'All tools must be read-only');
   check((await pages('list_clients', {})).some((item) => item.id === tenant), 'Nike client discovery');
   const employees = await pages('search_entities', { tenant });
-  check(employees.filter((item) => item.type === 'employee').length === oracle.dataset.employeeCount, 'Exactly 50 employees');
+  check(employees.filter((item) => oracle.employees.some((employee) => employee.id === item.id)).length === oracle.dataset.employeeCount, 'Exactly 50 fixture employees');
   for (const employee of oracle.employees) check(employees.some((item) => item.id === employee.id), `Employee ${employee.id}`);
   for (const alias of oracle.entity.aliases) check((await pages('search_entities', { tenant, query: alias.value })).some((item) => item.id === entity_id), `Abel alias ${alias.value}`);
   check((await call('get_entity', { tenant, entity_id })).entity.id === entity_id, 'Canonical Abel identity');
   const before = await counts();
   const memories = await pages('get_entity_memory', { tenant, entity_id, as_of: oracle.dataset.asOf });
+  // A tenant-wide policy is shared context, rather than an employee fact. The
+  // oracle explicitly permits linking it instead of duplicating it for Abel.
+  const policyContext = await pages('search_memory', { tenant, query: 'mobility', types: ['context'] });
   const found = new Map();
   for (const expected of oracle.expectedMemories) {
     const expectedValue = typeof expected.value === 'object' ? expected.value.amount ?? expected.value.distanceKm ?? expected.value.increaseKm ?? expected.value.potentialDifference : expected.value;
-    const matches = memories.filter((memory) => memory.content?.kind === kinds[expected.key] && (['current-address', 'previous-address'].includes(expected.key) ? memory.content.value === expected.value : true));
+    const candidates = expected.key === 'mobility-policy' ? policyContext : memories;
+    const matches = candidates.filter((memory) => memory.content?.kind === kinds[expected.key] && (['current-address', 'previous-address'].includes(expected.key) ? memory.content.value === expected.value : typeof expectedValue === 'number' ? memory.content.value === expectedValue : true));
     const memory = matches[0];
     check(Boolean(memory), `Semantic oracle: ${expected.key}`); if (!memory) continue;
     found.set(expected.key, memory);
@@ -89,6 +93,8 @@ try {
     const related = await pages('get_related_memories', { tenant, memory_id: from.id, direction: 'outgoing' });
     check(related.some((item) => item.to_memory_id === to.id && item.relationship === relation.type), `Relation ${relation.from} ${relation.type} ${relation.to}`);
   }
+  const supported = found.get('supported-bicycle-compensation'), policy = found.get('mobility-policy');
+  if (supported && policy) check((await pages('get_related_memories', { tenant, memory_id: supported.id })).some((item) => item.memory.id === policy.id), 'Shared mobility policy linked to Abel compensation context');
   const foreign = await client.callTool({ name: 'get_entity_memory', arguments: { tenant: 'missing-tenant', entity_id } });
   check(foreign.isError === true, 'Foreign tenant rejected');
   assert.deepEqual(await counts(), before, 'MCP reads must not trigger ingestion or persistence writes');
@@ -101,7 +107,7 @@ try {
     const { DeterministicMemoryConsolidator } = await import('../../packages/memory/dist/index.js');
     for (let retry = 0; retry < 2; retry++) {
       const repository = createMemoryRepository({ connectionString });
-      try { await ingestDirectory({ tenantId: tenant, path: `${root}mock-data/nike`, repository, consolidator: new DeterministicMemoryConsolidator() }); }
+      try { await ingestDirectory({ tenantId: tenant, directory: `${root}mock-data/nike`, repository, consolidator: new DeterministicMemoryConsolidator() }); }
       finally { await repository.close(); }
       assert.deepEqual(await counts(), before, `Unchanged retry ${retry + 1} with fresh repository must be stable`);
     }
