@@ -1,2 +1,4 @@
-// Reserved for source adapters, parsers, and extraction implementations.
 export type { MemoryExtractor, SourceParser } from "@tunnelvision/core";
+export * from "./parsers.js";
+export * from "./extractor.js";
+export * from "./filesystem.js";

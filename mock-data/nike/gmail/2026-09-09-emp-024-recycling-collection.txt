@@ -1,0 +1,14 @@
+From: Lucas Delcourt <lucas.delcourt@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-09T13:10:00Z
+Message-ID: <nike-gmail-noise-022@nike.example>
+Subject: Recycling collection
+Employee-ID: EMP-024
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The recycling collection is scheduled for the afternoon. Please leave flattened cartons beside the loading-area container.
+
+Thanks,
+Lucas Delcourt

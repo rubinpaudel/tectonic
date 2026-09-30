@@ -1,0 +1,14 @@
+From: Theo Willems <theo.willems@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-19T13:10:00Z
+Message-ID: <nike-gmail-noise-012@nike.example>
+Subject: Printer toner received
+Employee-ID: EMP-014
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The toner order has arrived. I placed the spare cartridges in the stationery cupboard next to the reception desk.
+
+Thanks,
+Theo Willems

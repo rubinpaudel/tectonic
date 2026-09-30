@@ -1,0 +1,14 @@
+From: Elise Laurent <elise.laurent@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-15T13:10:00Z
+Message-ID: <nike-gmail-noise-008@nike.example>
+Subject: Coffee machine maintenance
+Employee-ID: EMP-010
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+Facilities will service the coffee machine on Friday morning. The break area upstairs will remain available.
+
+Thanks,
+Elise Laurent

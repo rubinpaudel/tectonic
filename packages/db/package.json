@@ -11,7 +11,9 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "typecheck": "tsc --build"
+    "typecheck": "tsc --build && tsc --project tsconfig.test.json",
+    "test": "vitest run --root ../.. packages/db/tests",
+    "migrate": "node dist/cli.js"
   },
   "dependencies": {
     "@tunnelvision/core": "workspace:*",

@@ -1,0 +1,291 @@
+{
+  "tenantId": "nike",
+  "team": "Nike Belgium / Retail Operations",
+  "channel": {
+    "id": "nike:channel:retail-operations",
+    "displayName": "Retail operations"
+  },
+  "exportedAt": "2026-09-30T12:00:00Z",
+  "messages": [
+    {
+      "id": "nike-teams-retail-noise-001",
+      "createdDateTime": "2026-09-16T09:15:00Z",
+      "from": {
+        "id": "nike:teams:arthur-maes",
+        "displayName": "Arthur Maes",
+        "email": "arthur.maes@nike.example"
+      },
+      "employeeId": "EMP-009",
+      "body": {
+        "contentType": "text",
+        "content": "The window-display samples are ready for the morning review."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-002",
+      "createdDateTime": "2026-09-16T14:15:00Z",
+      "from": {
+        "id": "nike:teams:simon-dubois",
+        "displayName": "Simon Dubois",
+        "email": "simon.dubois@nike.example"
+      },
+      "employeeId": "EMP-012",
+      "body": {
+        "contentType": "text",
+        "content": "Delivery confirmed for the first unloading slot tomorrow."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-003",
+      "createdDateTime": "2026-09-17T09:15:00Z",
+      "from": {
+        "id": "nike:teams:jade-van-acker",
+        "displayName": "Jade Van Acker",
+        "email": "jade.van.acker@nike.example"
+      },
+      "employeeId": "EMP-015",
+      "body": {
+        "contentType": "text",
+        "content": "Please leave the sample trolley next to the labelled rack."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-004",
+      "createdDateTime": "2026-09-17T14:15:00Z",
+      "from": {
+        "id": "nike:teams:elias-moreau",
+        "displayName": "Elias Moreau",
+        "email": "elias.moreau@nike.example"
+      },
+      "employeeId": "EMP-018",
+      "body": {
+        "contentType": "text",
+        "content": "The new shelf labels are printed and sorted by bay."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-005",
+      "createdDateTime": "2026-09-18T09:15:00Z",
+      "from": {
+        "id": "nike:teams:sofia-vermeer",
+        "displayName": "Sofia Vermeer",
+        "email": "sofia.vermeer@nike.example"
+      },
+      "employeeId": "EMP-021",
+      "body": {
+        "contentType": "text",
+        "content": "The front-bay layout is ready for the visual-merchandising check."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-006",
+      "createdDateTime": "2026-09-18T14:15:00Z",
+      "from": {
+        "id": "nike:teams:lucas-delcourt",
+        "displayName": "Lucas Delcourt",
+        "email": "lucas.delcourt@nike.example"
+      },
+      "employeeId": "EMP-024",
+      "body": {
+        "contentType": "text",
+        "content": "The scanner charging station has been moved beside the packing desk."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-007",
+      "createdDateTime": "2026-09-19T09:15:00Z",
+      "from": {
+        "id": "nike:teams:zoe-lambert",
+        "displayName": "Zoe Lambert",
+        "email": "zoe.lambert@nike.example"
+      },
+      "employeeId": "EMP-027",
+      "body": {
+        "contentType": "text",
+        "content": "The team briefing notes are pinned above the shift board."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-008",
+      "createdDateTime": "2026-09-19T14:15:00Z",
+      "from": {
+        "id": "nike:teams:basile-jacobs",
+        "displayName": "Basile Jacobs",
+        "email": "basile.jacobs@nike.example"
+      },
+      "employeeId": "EMP-030",
+      "body": {
+        "contentType": "text",
+        "content": "Two reusable packaging samples are available in the stockroom."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-009",
+      "createdDateTime": "2026-09-20T09:15:00Z",
+      "from": {
+        "id": "nike:teams:hana-bosmans",
+        "displayName": "Hana Bosmans",
+        "email": "hana.bosmans@nike.example"
+      },
+      "employeeId": "EMP-033",
+      "body": {
+        "contentType": "text",
+        "content": "The returns desk has enough cartons for the afternoon collection."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-010",
+      "createdDateTime": "2026-09-20T14:15:00Z",
+      "from": {
+        "id": "nike:teams:samir-goossens",
+        "displayName": "Samir Goossens",
+        "email": "samir.goossens@nike.example"
+      },
+      "employeeId": "EMP-036",
+      "body": {
+        "contentType": "text",
+        "content": "I checked the visitor route; the demo rack is accessible."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-011",
+      "createdDateTime": "2026-09-21T09:15:00Z",
+      "from": {
+        "id": "nike:teams:yara-de-vos",
+        "displayName": "Yara De Vos",
+        "email": "yara.de.vos@nike.example"
+      },
+      "employeeId": "EMP-039",
+      "body": {
+        "contentType": "text",
+        "content": "The photography samples are on the blue trolley."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-012",
+      "createdDateTime": "2026-09-21T14:15:00Z",
+      "from": {
+        "id": "nike:teams:ibrahim-aerts",
+        "displayName": "Ibrahim Aerts",
+        "email": "ibrahim.aerts@nike.example"
+      },
+      "employeeId": "EMP-042",
+      "body": {
+        "contentType": "text",
+        "content": "Please use the loading-area recycling container for flattened cartons."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-013",
+      "createdDateTime": "2026-09-22T09:15:00Z",
+      "from": {
+        "id": "nike:teams:sara-van-es",
+        "displayName": "Sara Van Es",
+        "email": "sara.van.es@nike.example"
+      },
+      "employeeId": "EMP-045",
+      "body": {
+        "contentType": "text",
+        "content": "The product-training handouts are on the meeting table."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-014",
+      "createdDateTime": "2026-09-22T14:15:00Z",
+      "from": {
+        "id": "nike:teams:liam-verhoeven",
+        "displayName": "Liam Verhoeven",
+        "email": "liam.verhoeven@nike.example"
+      },
+      "employeeId": "EMP-048",
+      "body": {
+        "contentType": "text",
+        "content": "The spare label printer is back at the stockroom desk."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-015",
+      "createdDateTime": "2026-09-23T09:15:00Z",
+      "from": {
+        "id": "nike:teams:abel",
+        "displayName": "Abel",
+        "email": "abel@nike.example"
+      },
+      "employeeId": "EMP-001",
+      "body": {
+        "contentType": "text",
+        "content": "The showroom visit agenda has been sent to the support team."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-016",
+      "createdDateTime": "2026-09-23T14:15:00Z",
+      "from": {
+        "id": "nike:teams:noor-janssen",
+        "displayName": "Noor Janssen",
+        "email": "noor.janssen@nike.example"
+      },
+      "employeeId": "EMP-004",
+      "body": {
+        "contentType": "text",
+        "content": "The display measurements have been added to the shared worksheet."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-017",
+      "createdDateTime": "2026-09-24T09:15:00Z",
+      "from": {
+        "id": "nike:teams:youssef-benali",
+        "displayName": "Youssef Benali",
+        "email": "youssef.benali@nike.example"
+      },
+      "employeeId": "EMP-007",
+      "body": {
+        "contentType": "text",
+        "content": "The receiving team can use the second trolley after the first delivery."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-018",
+      "createdDateTime": "2026-09-24T14:15:00Z",
+      "from": {
+        "id": "nike:teams:elise-laurent",
+        "displayName": "Elise Laurent",
+        "email": "elise.laurent@nike.example"
+      },
+      "employeeId": "EMP-010",
+      "body": {
+        "contentType": "text",
+        "content": "The customer-feedback notes are ready for the weekly review."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-019",
+      "createdDateTime": "2026-09-25T09:15:00Z",
+      "from": {
+        "id": "nike:teams:amina-el-idrissi",
+        "displayName": "Amina El Idrissi",
+        "email": "amina.el.idrissi@nike.example"
+      },
+      "employeeId": "EMP-013",
+      "body": {
+        "contentType": "text",
+        "content": "The catalogue samples have been returned to the storage bay."
+      }
+    },
+    {
+      "id": "nike-teams-retail-noise-020",
+      "createdDateTime": "2026-09-25T14:15:00Z",
+      "from": {
+        "id": "nike:teams:oscar-leclerc",
+        "displayName": "Oscar Leclerc",
+        "email": "oscar.leclerc@nike.example"
+      },
+      "employeeId": "EMP-016",
+      "body": {
+        "contentType": "text",
+        "content": "The last workshop room check is complete; the projector works."
+      }
+    }
+  ]
+}

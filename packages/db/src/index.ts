@@ -1,2 +1,5 @@
-// Reserved for the Postgres/Drizzle adapter. No database schema or client yet.
 export type { MemoryRepository } from "@tunnelvision/core";
+export * from "./repository.js";
+export * from "./migrate.js";
+export * from "./testing.js";
+export * as schema from "./schema.js";

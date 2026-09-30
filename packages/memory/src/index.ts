@@ -1,2 +1,3 @@
-// Reserved for entity resolution and memory consolidation implementations.
 export type { MemoryConsolidator } from "@tunnelvision/core";
+export * from "./resolver.js";
+export * from "./consolidator.js";

@@ -1,0 +1,14 @@
+From: Zoe Lambert <zoe.lambert@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-12T08:10:00Z
+Message-ID: <nike-gmail-noise-025@nike.example>
+Subject: Store-support rota review
+Employee-ID: EMP-027
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The proposed support rota covers the showroom visit. Could everyone confirm the meeting time in the calendar invitation?
+
+Thanks,
+Zoe Lambert

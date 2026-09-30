@@ -1,0 +1,14 @@
+From: Ines Martens <ines.martens@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-08T08:10:00Z
+Message-ID: <nike-gmail-noise-021@nike.example>
+Subject: Desk booking reminder
+Employee-ID: EMP-023
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+I have booked a desk near the training area for Tuesday. Please let me know if that section is needed for the workshop.
+
+Thanks,
+Ines Martens

@@ -1,0 +1,14 @@
+From: Victor Peeters <victor.peeters@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-27T13:10:00Z
+Message-ID: <nike-gmail-noise-020@nike.example>
+Subject: Sample inventory review
+Employee-ID: EMP-022
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The sample inventory sheet has been checked against the rack. Two labels need replacing; all boxes are accounted for.
+
+Thanks,
+Victor Peeters

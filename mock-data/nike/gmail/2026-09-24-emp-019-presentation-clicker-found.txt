@@ -1,0 +1,14 @@
+From: Mila Wouters <mila.wouters@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-24T08:10:00Z
+Message-ID: <nike-gmail-noise-017@nike.example>
+Subject: Presentation clicker found
+Employee-ID: EMP-019
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+I found the presentation clicker in the training room. It is now with reception in a labelled envelope.
+
+Thanks,
+Mila Wouters

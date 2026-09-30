@@ -1,0 +1,431 @@
+{
+  "tenantId": "nike",
+  "team": "Nike Belgium / People Services",
+  "channel": {
+    "id": "nike:channel:hr-payroll",
+    "displayName": "HR and payroll handover"
+  },
+  "exportedAt": "2026-09-30T12:00:00Z",
+  "messages": [
+    {
+      "id": "nike-teams-hr-noise-001",
+      "createdDateTime": "2026-09-17T09:15:00Z",
+      "from": {
+        "id": "nike:teams:louis-verstraeten",
+        "displayName": "Louis Verstraeten",
+        "email": "louis.verstraeten@nike.example"
+      },
+      "employeeId": "EMP-005",
+      "body": {
+        "contentType": "text",
+        "content": "The induction packs for the new intake are ready at reception."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-002",
+      "createdDateTime": "2026-09-17T14:15:00Z",
+      "from": {
+        "id": "nike:teams:lotte-claessen",
+        "displayName": "Lotte Claessen",
+        "email": "lotte.claessen@nike.example"
+      },
+      "employeeId": "EMP-008",
+      "body": {
+        "contentType": "text",
+        "content": "The payroll calendar reminder has been pinned in this channel."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-003",
+      "createdDateTime": "2026-09-18T09:15:00Z",
+      "from": {
+        "id": "nike:teams:nora-de-smet",
+        "displayName": "Nora De Smet",
+        "email": "nora.de.smet@nike.example"
+      },
+      "employeeId": "EMP-011",
+      "body": {
+        "contentType": "text",
+        "content": "Please use the shared training calendar when booking a workshop room."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-004",
+      "createdDateTime": "2026-09-18T14:15:00Z",
+      "from": {
+        "id": "nike:teams:theo-willems",
+        "displayName": "Theo Willems",
+        "email": "theo.willems@nike.example"
+      },
+      "employeeId": "EMP-014",
+      "body": {
+        "contentType": "text",
+        "content": "The benefits Q&A will start at 11:00 in the small meeting room."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-005",
+      "createdDateTime": "2026-09-19T09:15:00Z",
+      "from": {
+        "id": "nike:teams:lina-declercq",
+        "displayName": "Lina Declercq",
+        "email": "lina.declercq@nike.example"
+      },
+      "employeeId": "EMP-017",
+      "body": {
+        "contentType": "text",
+        "content": "I uploaded the attendance sheet for the first-aid briefing."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-006",
+      "createdDateTime": "2026-09-19T14:15:00Z",
+      "from": {
+        "id": "nike:teams:adam-verbeek",
+        "displayName": "Adam Verbeek",
+        "email": "adam.verbeek@nike.example"
+      },
+      "employeeId": "EMP-020",
+      "body": {
+        "contentType": "text",
+        "content": "The onboarding checklist needs the emergency-contact form before sign-off."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-007",
+      "createdDateTime": "2026-09-20T09:15:00Z",
+      "from": {
+        "id": "nike:teams:ines-martens",
+        "displayName": "Ines Martens",
+        "email": "ines.martens@nike.example"
+      },
+      "employeeId": "EMP-023",
+      "body": {
+        "contentType": "text",
+        "content": "The visitor badges are in a labelled tray for tomorrow."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-008",
+      "createdDateTime": "2026-09-20T14:15:00Z",
+      "from": {
+        "id": "nike:teams:finn-de-clercq",
+        "displayName": "Finn De Clercq",
+        "email": "finn.de.clercq@nike.example"
+      },
+      "employeeId": "EMP-026",
+      "body": {
+        "contentType": "text",
+        "content": "The internal newsletter draft is available for spelling corrections."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-009",
+      "createdDateTime": "2026-09-21T09:15:00Z",
+      "from": {
+        "id": "nike:teams:louise-van-damme",
+        "displayName": "Louise Van Damme",
+        "email": "louise.van.damme@nike.example"
+      },
+      "employeeId": "EMP-029",
+      "body": {
+        "contentType": "text",
+        "content": "The monthly people-services huddle is now in the shared calendar."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-010",
+      "createdDateTime": "2026-09-21T14:15:00Z",
+      "from": {
+        "id": "nike:teams:nolan-lefevre",
+        "displayName": "Nolan Lefevre",
+        "email": "nolan.lefevre@nike.example"
+      },
+      "employeeId": "EMP-032",
+      "body": {
+        "contentType": "text",
+        "content": "Please send lunch preferences for the training session before Thursday."
+      }
+    },
+    {
+      "id": "nike-teams-abel-ack-20260922",
+      "createdDateTime": "2026-09-22T08:40:00Z",
+      "from": {
+        "id": "nike:teams:sarah-van-doren",
+        "displayName": "Sarah Van Doren",
+        "email": "sarah.van.doren@nike.example"
+      },
+      "employeeId": "EMP-001",
+      "body": {
+        "contentType": "text",
+        "content": "Hi Abel, thanks for your email. I acknowledge your address change effective 2026-09-20. Your new address is 82 Meadow Crescent, 3000 Leuven (synthetic)."
+      },
+      "mentions": [
+        {
+          "id": "nike:teams:abel",
+          "displayName": "Abel",
+          "email": "abel@nike.example"
+        }
+      ]
+    },
+    {
+      "id": "nike-teams-abel-commitment-20260922",
+      "createdDateTime": "2026-09-22T08:43:00Z",
+      "from": {
+        "id": "nike:teams:sarah-van-doren",
+        "displayName": "Sarah Van Doren",
+        "email": "sarah.van.doren@nike.example"
+      },
+      "employeeId": "EMP-001",
+      "body": {
+        "contentType": "text",
+        "content": "I will update Abel's dossier and pass the address and bicycle-commute change to SD Worx ahead of the September payroll handover."
+      },
+      "mentions": [
+        {
+          "id": "nike:teams:abel",
+          "displayName": "Abel",
+          "email": "abel@nike.example"
+        }
+      ]
+    },
+    {
+      "id": "nike-teams-hr-noise-011",
+      "createdDateTime": "2026-09-22T09:15:00Z",
+      "from": {
+        "id": "nike:teams:maya-dupont",
+        "displayName": "Maya Dupont",
+        "email": "maya.dupont@nike.example"
+      },
+      "employeeId": "EMP-035",
+      "body": {
+        "contentType": "text",
+        "content": "The reception desk has the updated room-booking sheet."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-012",
+      "createdDateTime": "2026-09-22T14:15:00Z",
+      "from": {
+        "id": "nike:teams:felix-renard",
+        "displayName": "Felix Renard",
+        "email": "felix.renard@nike.example"
+      },
+      "employeeId": "EMP-038",
+      "body": {
+        "contentType": "text",
+        "content": "The product-learning session has two spare seats this week."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-013",
+      "createdDateTime": "2026-09-23T09:15:00Z",
+      "from": {
+        "id": "nike:teams:clara-van-loon",
+        "displayName": "Clara Van Loon",
+        "email": "clara.van.loon@nike.example"
+      },
+      "employeeId": "EMP-041",
+      "body": {
+        "contentType": "text",
+        "content": "I have put the workshop handouts in the training-room cupboard."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-014",
+      "createdDateTime": "2026-09-23T14:15:00Z",
+      "from": {
+        "id": "nike:teams:thomas-simonet",
+        "displayName": "Thomas Simonet",
+        "email": "thomas.simonet@nike.example"
+      },
+      "employeeId": "EMP-044",
+      "body": {
+        "contentType": "text",
+        "content": "The volunteering headcount is ready for the organiser."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-015",
+      "createdDateTime": "2026-09-24T09:15:00Z",
+      "from": {
+        "id": "nike:teams:amelie-rousseau",
+        "displayName": "Amelie Rousseau",
+        "email": "amelie.rousseau@nike.example"
+      },
+      "employeeId": "EMP-047",
+      "body": {
+        "contentType": "text",
+        "content": "Reminder: the all-hands starts five minutes earlier on Friday."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-016",
+      "createdDateTime": "2026-09-24T14:15:00Z",
+      "from": {
+        "id": "nike:teams:anton-de-meyer",
+        "displayName": "Anton De Meyer",
+        "email": "anton.de.meyer@nike.example"
+      },
+      "employeeId": "EMP-050",
+      "body": {
+        "contentType": "text",
+        "content": "The new stationery order arrived; the sign-in sheets are replenished."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-017",
+      "createdDateTime": "2026-09-25T09:15:00Z",
+      "from": {
+        "id": "nike:teams:milan-de-ruyter",
+        "displayName": "Milan De Ruyter",
+        "email": "milan.de.ruyter@nike.example"
+      },
+      "employeeId": "EMP-003",
+      "body": {
+        "contentType": "text",
+        "content": "The health-and-safety poster is on the noticeboard by the staff entrance."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-018",
+      "createdDateTime": "2026-09-25T14:15:00Z",
+      "from": {
+        "id": "nike:teams:emma-vandenberg",
+        "displayName": "Emma Vandenberg",
+        "email": "emma.vandenberg@nike.example"
+      },
+      "employeeId": "EMP-006",
+      "body": {
+        "contentType": "text",
+        "content": "The staff survey closes at the end of the week."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-019",
+      "createdDateTime": "2026-09-26T09:15:00Z",
+      "from": {
+        "id": "nike:teams:arthur-maes",
+        "displayName": "Arthur Maes",
+        "email": "arthur.maes@nike.example"
+      },
+      "employeeId": "EMP-009",
+      "body": {
+        "contentType": "text",
+        "content": "The HR office hours are listed on the intranet calendar."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-020",
+      "createdDateTime": "2026-09-26T14:15:00Z",
+      "from": {
+        "id": "nike:teams:simon-dubois",
+        "displayName": "Simon Dubois",
+        "email": "simon.dubois@nike.example"
+      },
+      "employeeId": "EMP-012",
+      "body": {
+        "contentType": "text",
+        "content": "Thanks for checking the induction-room projector this morning."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-021",
+      "createdDateTime": "2026-09-27T09:15:00Z",
+      "from": {
+        "id": "nike:teams:jade-van-acker",
+        "displayName": "Jade Van Acker",
+        "email": "jade.van.acker@nike.example"
+      },
+      "employeeId": "EMP-015",
+      "body": {
+        "contentType": "text",
+        "content": "The meeting-room signs are ready for collection from reception."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-022",
+      "createdDateTime": "2026-09-27T14:15:00Z",
+      "from": {
+        "id": "nike:teams:elias-moreau",
+        "displayName": "Elias Moreau",
+        "email": "elias.moreau@nike.example"
+      },
+      "employeeId": "EMP-018",
+      "body": {
+        "contentType": "text",
+        "content": "Please return the spare badge lanyards to the front desk."
+      }
+    },
+    {
+      "id": "nike-teams-hr-noise-023",
+      "createdDateTime": "2026-09-28T09:15:00Z",
+      "from": {
+        "id": "nike:teams:sofia-vermeer",
+        "displayName": "Sofia Vermeer",
+        "email": "sofia.vermeer@nike.example"
+      },
+      "employeeId": "EMP-021",
+      "body": {
+        "contentType": "text",
+        "content": "The September workshop photo album is in the shared team folder."
+      }
+    },
+    {
+      "id": "nike-teams-abel-followup-20260928",
+      "createdDateTime": "2026-09-28T10:20:00Z",
+      "from": {
+        "id": "sdworx:teams:lea-marchal",
+        "displayName": "Lea Marchal",
+        "email": "lea.marchal@sdworx.example"
+      },
+      "employeeId": "EMP-001",
+      "mentions": [
+        {
+          "id": "nike:teams:abel",
+          "displayName": "Abel",
+          "email": "abel@nike.example"
+        }
+      ],
+      "body": {
+        "contentType": "text",
+        "content": "While checking Abel (EMP-001) for September payroll, the dossier still shows 14 Lantern Lane, 1000 Brussels (synthetic) and bicycle compensation EUR 50 per month. I cannot find confirmation that HR's address and commute change reached payroll; it appears not processed. Could you check? This follow-up is open; no corrected calculation has been confirmed."
+      }
+    },
+    {
+      "id": "nike-teams-abel-still-open-20260928",
+      "createdDateTime": "2026-09-28T11:05:00Z",
+      "from": {
+        "id": "nike:teams:sarah-van-doren",
+        "displayName": "Sarah Van Doren",
+        "email": "sarah.van.doren@nike.example"
+      },
+      "employeeId": "EMP-001",
+      "body": {
+        "contentType": "text",
+        "content": "I have not yet found confirmation that Abel's update was carried through. I am checking the handover list. The issue remains open pending confirmation from payroll."
+      },
+      "mentions": [
+        {
+          "id": "nike:teams:abel",
+          "displayName": "Abel",
+          "email": "abel@nike.example"
+        }
+      ]
+    },
+    {
+      "id": "nike-teams-hr-noise-024",
+      "createdDateTime": "2026-09-28T14:15:00Z",
+      "from": {
+        "id": "nike:teams:lucas-delcourt",
+        "displayName": "Lucas Delcourt",
+        "email": "lucas.delcourt@nike.example"
+      },
+      "employeeId": "EMP-024",
+      "body": {
+        "contentType": "text",
+        "content": "I have reserved the quiet room for the learning session."
+      }
+    }
+  ]
+}

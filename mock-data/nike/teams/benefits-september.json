@@ -1,0 +1,235 @@
+{
+  "tenantId": "nike",
+  "team": "Nike Belgium / People Services",
+  "channel": {
+    "id": "nike:channel:benefits",
+    "displayName": "Benefits and learning"
+  },
+  "exportedAt": "2026-09-30T12:00:00Z",
+  "messages": [
+    {
+      "id": "nike-teams-benefits-noise-001",
+      "createdDateTime": "2026-09-18T09:15:00Z",
+      "from": {
+        "id": "nike:teams:oscar-leclerc",
+        "displayName": "Oscar Leclerc",
+        "email": "oscar.leclerc@nike.example"
+      },
+      "employeeId": "EMP-016",
+      "body": {
+        "contentType": "text",
+        "content": "The lunch-and-learn calendar is ready for October bookings."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-002",
+      "createdDateTime": "2026-09-18T14:15:00Z",
+      "from": {
+        "id": "nike:teams:mila-wouters",
+        "displayName": "Mila Wouters",
+        "email": "mila.wouters@nike.example"
+      },
+      "employeeId": "EMP-019",
+      "body": {
+        "contentType": "text",
+        "content": "The wellness workshop will use the small meeting room."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-003",
+      "createdDateTime": "2026-09-19T09:15:00Z",
+      "from": {
+        "id": "nike:teams:victor-peeters",
+        "displayName": "Victor Peeters",
+        "email": "victor.peeters@nike.example"
+      },
+      "employeeId": "EMP-022",
+      "body": {
+        "contentType": "text",
+        "content": "The volunteering photos are ready for the newsletter editor."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-004",
+      "createdDateTime": "2026-09-19T14:15:00Z",
+      "from": {
+        "id": "nike:teams:aya-van-hove",
+        "displayName": "Aya Van Hove",
+        "email": "aya.van.hove@nike.example"
+      },
+      "employeeId": "EMP-025",
+      "body": {
+        "contentType": "text",
+        "content": "I registered for the product-learning session."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-005",
+      "createdDateTime": "2026-09-20T09:15:00Z",
+      "from": {
+        "id": "nike:teams:rayan-deschamps",
+        "displayName": "Rayan Deschamps",
+        "email": "rayan.deschamps@nike.example"
+      },
+      "employeeId": "EMP-028",
+      "body": {
+        "contentType": "text",
+        "content": "The quiet-room booking sheet is at reception."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-006",
+      "createdDateTime": "2026-09-20T14:15:00Z",
+      "from": {
+        "id": "nike:teams:iris-de-wilde",
+        "displayName": "Iris De Wilde",
+        "email": "iris.de.wilde@nike.example"
+      },
+      "employeeId": "EMP-031",
+      "body": {
+        "contentType": "text",
+        "content": "There are still seats available at the first-aid briefing."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-007",
+      "createdDateTime": "2026-09-21T09:15:00Z",
+      "from": {
+        "id": "nike:teams:leon-van-den-berg",
+        "displayName": "Leon Van den Berg",
+        "email": "leon.van.den.berg@nike.example"
+      },
+      "employeeId": "EMP-034",
+      "body": {
+        "contentType": "text",
+        "content": "The fruit order for the workshop has been confirmed."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-008",
+      "createdDateTime": "2026-09-21T14:15:00Z",
+      "from": {
+        "id": "nike:teams:sofia-peeters",
+        "displayName": "Sofia Peeters",
+        "email": "sofia.peeters@nike.example"
+      },
+      "employeeId": "EMP-037",
+      "body": {
+        "contentType": "text",
+        "content": "I will bring the spare projector cable to the learning session."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-009",
+      "createdDateTime": "2026-09-22T09:15:00Z",
+      "from": {
+        "id": "nike:teams:hugo-mertens",
+        "displayName": "Hugo Mertens",
+        "email": "hugo.mertens@nike.example"
+      },
+      "employeeId": "EMP-040",
+      "body": {
+        "contentType": "text",
+        "content": "The staff survey link is pinned in this channel."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-010",
+      "createdDateTime": "2026-09-22T14:15:00Z",
+      "from": {
+        "id": "nike:teams:nina-de-baets",
+        "displayName": "Nina De Baets",
+        "email": "nina.de.baets@nike.example"
+      },
+      "employeeId": "EMP-043",
+      "body": {
+        "contentType": "text",
+        "content": "The training calendar now shows the room numbers."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-011",
+      "createdDateTime": "2026-09-23T09:15:00Z",
+      "from": {
+        "id": "nike:teams:mathis-dierckx",
+        "displayName": "Mathis Dierckx",
+        "email": "mathis.dierckx@nike.example"
+      },
+      "employeeId": "EMP-046",
+      "body": {
+        "contentType": "text",
+        "content": "The induction welcome cards are ready to sign."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-012",
+      "createdDateTime": "2026-09-23T14:15:00Z",
+      "from": {
+        "id": "nike:teams:dalia-vercammen",
+        "displayName": "Dalia Vercammen",
+        "email": "dalia.vercammen@nike.example"
+      },
+      "employeeId": "EMP-049",
+      "body": {
+        "contentType": "text",
+        "content": "The team lunch venue has confirmed the headcount."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-013",
+      "createdDateTime": "2026-09-24T09:15:00Z",
+      "from": {
+        "id": "nike:teams:sarah-van-doren",
+        "displayName": "Sarah Van Doren",
+        "email": "sarah.van.doren@nike.example"
+      },
+      "employeeId": "EMP-002",
+      "body": {
+        "contentType": "text",
+        "content": "The book-swap shelf has space for more donations."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-014",
+      "createdDateTime": "2026-09-24T14:15:00Z",
+      "from": {
+        "id": "nike:teams:louis-verstraeten",
+        "displayName": "Louis Verstraeten",
+        "email": "louis.verstraeten@nike.example"
+      },
+      "employeeId": "EMP-005",
+      "body": {
+        "contentType": "text",
+        "content": "Please leave the workshop name cards beside the sign-in sheet."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-015",
+      "createdDateTime": "2026-09-25T09:15:00Z",
+      "from": {
+        "id": "nike:teams:lotte-claessen",
+        "displayName": "Lotte Claessen",
+        "email": "lotte.claessen@nike.example"
+      },
+      "employeeId": "EMP-008",
+      "body": {
+        "contentType": "text",
+        "content": "The coffee machine is working after the facilities visit."
+      }
+    },
+    {
+      "id": "nike-teams-benefits-noise-016",
+      "createdDateTime": "2026-09-25T14:15:00Z",
+      "from": {
+        "id": "nike:teams:nora-de-smet",
+        "displayName": "Nora De Smet",
+        "email": "nora.de.smet@nike.example"
+      },
+      "employeeId": "EMP-011",
+      "body": {
+        "contentType": "text",
+        "content": "I have returned the spare meeting-room microphone."
+      }
+    }
+  ]
+}

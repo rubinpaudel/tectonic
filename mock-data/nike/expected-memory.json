@@ -1,0 +1,891 @@
+{
+  "schemaVersion": 1,
+  "acceptanceOnly": true,
+  "mustNeverBeIngested": true,
+  "tenantId": "nike",
+  "interpretation": "Semantic assertions, not records for ingestion. Keys and summaries do not dictate implementation IDs or exact wording. Amounts are synthetic monthly EUR values. A missing payroll confirmation is not proof of an underpayment.",
+  "dataset": {
+    "employeeCount": 50,
+    "sourceCounts": {
+      "gmail": 26,
+      "sharepoint": 51,
+      "teams": 3,
+      "total": 80
+    },
+    "employeeSnapshotDate": "2026-09-01",
+    "asOf": "2026-09-30",
+    "scope": "Fictional SD Worx servicing fictional Nike Belgium employees"
+  },
+  "entity": {
+    "id": "nike:employee:abel",
+    "type": "employee",
+    "name": "Abel",
+    "aliases": [
+      {
+        "kind": "name",
+        "value": "Abel"
+      },
+      {
+        "kind": "email",
+        "value": "abel@nike.example"
+      },
+      {
+        "kind": "employee_id",
+        "value": "EMP-001"
+      },
+      {
+        "kind": "teams_user_id",
+        "value": "nike:teams:abel"
+      }
+    ],
+    "aliasNotes": "Alias namespaces may follow the extractor conventions; all four identities must resolve to the same employee. Teams from is the actor; message.employeeId and mentions identify the affected employee."
+  },
+  "employees": [
+    {
+      "id": "nike:employee:abel",
+      "employeeId": "EMP-001",
+      "name": "Abel",
+      "email": "abel@nike.example",
+      "teamsUserId": "nike:teams:abel",
+      "dossierPath": "sharepoint/employee-EMP-001-abel.pdf"
+    },
+    {
+      "id": "nike:employee:sarah-van-doren",
+      "employeeId": "EMP-002",
+      "name": "Sarah Van Doren",
+      "email": "sarah.van.doren@nike.example",
+      "teamsUserId": "nike:teams:sarah-van-doren",
+      "dossierPath": "sharepoint/employee-EMP-002-sarah-van-doren.pdf"
+    },
+    {
+      "id": "nike:employee:milan-de-ruyter",
+      "employeeId": "EMP-003",
+      "name": "Milan De Ruyter",
+      "email": "milan.de.ruyter@nike.example",
+      "teamsUserId": "nike:teams:milan-de-ruyter",
+      "dossierPath": "sharepoint/employee-EMP-003-milan-de-ruyter.pdf"
+    },
+    {
+      "id": "nike:employee:noor-janssen",
+      "employeeId": "EMP-004",
+      "name": "Noor Janssen",
+      "email": "noor.janssen@nike.example",
+      "teamsUserId": "nike:teams:noor-janssen",
+      "dossierPath": "sharepoint/employee-EMP-004-noor-janssen.pdf"
+    },
+    {
+      "id": "nike:employee:louis-verstraeten",
+      "employeeId": "EMP-005",
+      "name": "Louis Verstraeten",
+      "email": "louis.verstraeten@nike.example",
+      "teamsUserId": "nike:teams:louis-verstraeten",
+      "dossierPath": "sharepoint/employee-EMP-005-louis-verstraeten.pdf"
+    },
+    {
+      "id": "nike:employee:emma-vandenberg",
+      "employeeId": "EMP-006",
+      "name": "Emma Vandenberg",
+      "email": "emma.vandenberg@nike.example",
+      "teamsUserId": "nike:teams:emma-vandenberg",
+      "dossierPath": "sharepoint/employee-EMP-006-emma-vandenberg.pdf"
+    },
+    {
+      "id": "nike:employee:youssef-benali",
+      "employeeId": "EMP-007",
+      "name": "Youssef Benali",
+      "email": "youssef.benali@nike.example",
+      "teamsUserId": "nike:teams:youssef-benali",
+      "dossierPath": "sharepoint/employee-EMP-007-youssef-benali.pdf"
+    },
+    {
+      "id": "nike:employee:lotte-claessen",
+      "employeeId": "EMP-008",
+      "name": "Lotte Claessen",
+      "email": "lotte.claessen@nike.example",
+      "teamsUserId": "nike:teams:lotte-claessen",
+      "dossierPath": "sharepoint/employee-EMP-008-lotte-claessen.pdf"
+    },
+    {
+      "id": "nike:employee:arthur-maes",
+      "employeeId": "EMP-009",
+      "name": "Arthur Maes",
+      "email": "arthur.maes@nike.example",
+      "teamsUserId": "nike:teams:arthur-maes",
+      "dossierPath": "sharepoint/employee-EMP-009-arthur-maes.pdf"
+    },
+    {
+      "id": "nike:employee:elise-laurent",
+      "employeeId": "EMP-010",
+      "name": "Elise Laurent",
+      "email": "elise.laurent@nike.example",
+      "teamsUserId": "nike:teams:elise-laurent",
+      "dossierPath": "sharepoint/employee-EMP-010-elise-laurent.pdf"
+    },
+    {
+      "id": "nike:employee:nora-de-smet",
+      "employeeId": "EMP-011",
+      "name": "Nora De Smet",
+      "email": "nora.de.smet@nike.example",
+      "teamsUserId": "nike:teams:nora-de-smet",
+      "dossierPath": "sharepoint/employee-EMP-011-nora-de-smet.pdf"
+    },
+    {
+      "id": "nike:employee:simon-dubois",
+      "employeeId": "EMP-012",
+      "name": "Simon Dubois",
+      "email": "simon.dubois@nike.example",
+      "teamsUserId": "nike:teams:simon-dubois",
+      "dossierPath": "sharepoint/employee-EMP-012-simon-dubois.pdf"
+    },
+    {
+      "id": "nike:employee:amina-el-idrissi",
+      "employeeId": "EMP-013",
+      "name": "Amina El Idrissi",
+      "email": "amina.el.idrissi@nike.example",
+      "teamsUserId": "nike:teams:amina-el-idrissi",
+      "dossierPath": "sharepoint/employee-EMP-013-amina-el-idrissi.pdf"
+    },
+    {
+      "id": "nike:employee:theo-willems",
+      "employeeId": "EMP-014",
+      "name": "Theo Willems",
+      "email": "theo.willems@nike.example",
+      "teamsUserId": "nike:teams:theo-willems",
+      "dossierPath": "sharepoint/employee-EMP-014-theo-willems.pdf"
+    },
+    {
+      "id": "nike:employee:jade-van-acker",
+      "employeeId": "EMP-015",
+      "name": "Jade Van Acker",
+      "email": "jade.van.acker@nike.example",
+      "teamsUserId": "nike:teams:jade-van-acker",
+      "dossierPath": "sharepoint/employee-EMP-015-jade-van-acker.pdf"
+    },
+    {
+      "id": "nike:employee:oscar-leclerc",
+      "employeeId": "EMP-016",
+      "name": "Oscar Leclerc",
+      "email": "oscar.leclerc@nike.example",
+      "teamsUserId": "nike:teams:oscar-leclerc",
+      "dossierPath": "sharepoint/employee-EMP-016-oscar-leclerc.pdf"
+    },
+    {
+      "id": "nike:employee:lina-declercq",
+      "employeeId": "EMP-017",
+      "name": "Lina Declercq",
+      "email": "lina.declercq@nike.example",
+      "teamsUserId": "nike:teams:lina-declercq",
+      "dossierPath": "sharepoint/employee-EMP-017-lina-declercq.pdf"
+    },
+    {
+      "id": "nike:employee:elias-moreau",
+      "employeeId": "EMP-018",
+      "name": "Elias Moreau",
+      "email": "elias.moreau@nike.example",
+      "teamsUserId": "nike:teams:elias-moreau",
+      "dossierPath": "sharepoint/employee-EMP-018-elias-moreau.pdf"
+    },
+    {
+      "id": "nike:employee:mila-wouters",
+      "employeeId": "EMP-019",
+      "name": "Mila Wouters",
+      "email": "mila.wouters@nike.example",
+      "teamsUserId": "nike:teams:mila-wouters",
+      "dossierPath": "sharepoint/employee-EMP-019-mila-wouters.pdf"
+    },
+    {
+      "id": "nike:employee:adam-verbeek",
+      "employeeId": "EMP-020",
+      "name": "Adam Verbeek",
+      "email": "adam.verbeek@nike.example",
+      "teamsUserId": "nike:teams:adam-verbeek",
+      "dossierPath": "sharepoint/employee-EMP-020-adam-verbeek.pdf"
+    },
+    {
+      "id": "nike:employee:sofia-vermeer",
+      "employeeId": "EMP-021",
+      "name": "Sofia Vermeer",
+      "email": "sofia.vermeer@nike.example",
+      "teamsUserId": "nike:teams:sofia-vermeer",
+      "dossierPath": "sharepoint/employee-EMP-021-sofia-vermeer.pdf"
+    },
+    {
+      "id": "nike:employee:victor-peeters",
+      "employeeId": "EMP-022",
+      "name": "Victor Peeters",
+      "email": "victor.peeters@nike.example",
+      "teamsUserId": "nike:teams:victor-peeters",
+      "dossierPath": "sharepoint/employee-EMP-022-victor-peeters.pdf"
+    },
+    {
+      "id": "nike:employee:ines-martens",
+      "employeeId": "EMP-023",
+      "name": "Ines Martens",
+      "email": "ines.martens@nike.example",
+      "teamsUserId": "nike:teams:ines-martens",
+      "dossierPath": "sharepoint/employee-EMP-023-ines-martens.pdf"
+    },
+    {
+      "id": "nike:employee:lucas-delcourt",
+      "employeeId": "EMP-024",
+      "name": "Lucas Delcourt",
+      "email": "lucas.delcourt@nike.example",
+      "teamsUserId": "nike:teams:lucas-delcourt",
+      "dossierPath": "sharepoint/employee-EMP-024-lucas-delcourt.pdf"
+    },
+    {
+      "id": "nike:employee:aya-van-hove",
+      "employeeId": "EMP-025",
+      "name": "Aya Van Hove",
+      "email": "aya.van.hove@nike.example",
+      "teamsUserId": "nike:teams:aya-van-hove",
+      "dossierPath": "sharepoint/employee-EMP-025-aya-van-hove.pdf"
+    },
+    {
+      "id": "nike:employee:finn-de-clercq",
+      "employeeId": "EMP-026",
+      "name": "Finn De Clercq",
+      "email": "finn.de.clercq@nike.example",
+      "teamsUserId": "nike:teams:finn-de-clercq",
+      "dossierPath": "sharepoint/employee-EMP-026-finn-de-clercq.pdf"
+    },
+    {
+      "id": "nike:employee:zoe-lambert",
+      "employeeId": "EMP-027",
+      "name": "Zoe Lambert",
+      "email": "zoe.lambert@nike.example",
+      "teamsUserId": "nike:teams:zoe-lambert",
+      "dossierPath": "sharepoint/employee-EMP-027-zoe-lambert.pdf"
+    },
+    {
+      "id": "nike:employee:rayan-deschamps",
+      "employeeId": "EMP-028",
+      "name": "Rayan Deschamps",
+      "email": "rayan.deschamps@nike.example",
+      "teamsUserId": "nike:teams:rayan-deschamps",
+      "dossierPath": "sharepoint/employee-EMP-028-rayan-deschamps.pdf"
+    },
+    {
+      "id": "nike:employee:louise-van-damme",
+      "employeeId": "EMP-029",
+      "name": "Louise Van Damme",
+      "email": "louise.van.damme@nike.example",
+      "teamsUserId": "nike:teams:louise-van-damme",
+      "dossierPath": "sharepoint/employee-EMP-029-louise-van-damme.pdf"
+    },
+    {
+      "id": "nike:employee:basile-jacobs",
+      "employeeId": "EMP-030",
+      "name": "Basile Jacobs",
+      "email": "basile.jacobs@nike.example",
+      "teamsUserId": "nike:teams:basile-jacobs",
+      "dossierPath": "sharepoint/employee-EMP-030-basile-jacobs.pdf"
+    },
+    {
+      "id": "nike:employee:iris-de-wilde",
+      "employeeId": "EMP-031",
+      "name": "Iris De Wilde",
+      "email": "iris.de.wilde@nike.example",
+      "teamsUserId": "nike:teams:iris-de-wilde",
+      "dossierPath": "sharepoint/employee-EMP-031-iris-de-wilde.pdf"
+    },
+    {
+      "id": "nike:employee:nolan-lefevre",
+      "employeeId": "EMP-032",
+      "name": "Nolan Lefevre",
+      "email": "nolan.lefevre@nike.example",
+      "teamsUserId": "nike:teams:nolan-lefevre",
+      "dossierPath": "sharepoint/employee-EMP-032-nolan-lefevre.pdf"
+    },
+    {
+      "id": "nike:employee:hana-bosmans",
+      "employeeId": "EMP-033",
+      "name": "Hana Bosmans",
+      "email": "hana.bosmans@nike.example",
+      "teamsUserId": "nike:teams:hana-bosmans",
+      "dossierPath": "sharepoint/employee-EMP-033-hana-bosmans.pdf"
+    },
+    {
+      "id": "nike:employee:leon-van-den-berg",
+      "employeeId": "EMP-034",
+      "name": "Leon Van den Berg",
+      "email": "leon.van.den.berg@nike.example",
+      "teamsUserId": "nike:teams:leon-van-den-berg",
+      "dossierPath": "sharepoint/employee-EMP-034-leon-van-den-berg.pdf"
+    },
+    {
+      "id": "nike:employee:maya-dupont",
+      "employeeId": "EMP-035",
+      "name": "Maya Dupont",
+      "email": "maya.dupont@nike.example",
+      "teamsUserId": "nike:teams:maya-dupont",
+      "dossierPath": "sharepoint/employee-EMP-035-maya-dupont.pdf"
+    },
+    {
+      "id": "nike:employee:samir-goossens",
+      "employeeId": "EMP-036",
+      "name": "Samir Goossens",
+      "email": "samir.goossens@nike.example",
+      "teamsUserId": "nike:teams:samir-goossens",
+      "dossierPath": "sharepoint/employee-EMP-036-samir-goossens.pdf"
+    },
+    {
+      "id": "nike:employee:sofia-peeters",
+      "employeeId": "EMP-037",
+      "name": "Sofia Peeters",
+      "email": "sofia.peeters@nike.example",
+      "teamsUserId": "nike:teams:sofia-peeters",
+      "dossierPath": "sharepoint/employee-EMP-037-sofia-peeters.pdf"
+    },
+    {
+      "id": "nike:employee:felix-renard",
+      "employeeId": "EMP-038",
+      "name": "Felix Renard",
+      "email": "felix.renard@nike.example",
+      "teamsUserId": "nike:teams:felix-renard",
+      "dossierPath": "sharepoint/employee-EMP-038-felix-renard.pdf"
+    },
+    {
+      "id": "nike:employee:yara-de-vos",
+      "employeeId": "EMP-039",
+      "name": "Yara De Vos",
+      "email": "yara.de.vos@nike.example",
+      "teamsUserId": "nike:teams:yara-de-vos",
+      "dossierPath": "sharepoint/employee-EMP-039-yara-de-vos.pdf"
+    },
+    {
+      "id": "nike:employee:hugo-mertens",
+      "employeeId": "EMP-040",
+      "name": "Hugo Mertens",
+      "email": "hugo.mertens@nike.example",
+      "teamsUserId": "nike:teams:hugo-mertens",
+      "dossierPath": "sharepoint/employee-EMP-040-hugo-mertens.pdf"
+    },
+    {
+      "id": "nike:employee:clara-van-loon",
+      "employeeId": "EMP-041",
+      "name": "Clara Van Loon",
+      "email": "clara.van.loon@nike.example",
+      "teamsUserId": "nike:teams:clara-van-loon",
+      "dossierPath": "sharepoint/employee-EMP-041-clara-van-loon.pdf"
+    },
+    {
+      "id": "nike:employee:ibrahim-aerts",
+      "employeeId": "EMP-042",
+      "name": "Ibrahim Aerts",
+      "email": "ibrahim.aerts@nike.example",
+      "teamsUserId": "nike:teams:ibrahim-aerts",
+      "dossierPath": "sharepoint/employee-EMP-042-ibrahim-aerts.pdf"
+    },
+    {
+      "id": "nike:employee:nina-de-baets",
+      "employeeId": "EMP-043",
+      "name": "Nina De Baets",
+      "email": "nina.de.baets@nike.example",
+      "teamsUserId": "nike:teams:nina-de-baets",
+      "dossierPath": "sharepoint/employee-EMP-043-nina-de-baets.pdf"
+    },
+    {
+      "id": "nike:employee:thomas-simonet",
+      "employeeId": "EMP-044",
+      "name": "Thomas Simonet",
+      "email": "thomas.simonet@nike.example",
+      "teamsUserId": "nike:teams:thomas-simonet",
+      "dossierPath": "sharepoint/employee-EMP-044-thomas-simonet.pdf"
+    },
+    {
+      "id": "nike:employee:sara-van-es",
+      "employeeId": "EMP-045",
+      "name": "Sara Van Es",
+      "email": "sara.van.es@nike.example",
+      "teamsUserId": "nike:teams:sara-van-es",
+      "dossierPath": "sharepoint/employee-EMP-045-sara-van-es.pdf"
+    },
+    {
+      "id": "nike:employee:mathis-dierckx",
+      "employeeId": "EMP-046",
+      "name": "Mathis Dierckx",
+      "email": "mathis.dierckx@nike.example",
+      "teamsUserId": "nike:teams:mathis-dierckx",
+      "dossierPath": "sharepoint/employee-EMP-046-mathis-dierckx.pdf"
+    },
+    {
+      "id": "nike:employee:amelie-rousseau",
+      "employeeId": "EMP-047",
+      "name": "Amelie Rousseau",
+      "email": "amelie.rousseau@nike.example",
+      "teamsUserId": "nike:teams:amelie-rousseau",
+      "dossierPath": "sharepoint/employee-EMP-047-amelie-rousseau.pdf"
+    },
+    {
+      "id": "nike:employee:liam-verhoeven",
+      "employeeId": "EMP-048",
+      "name": "Liam Verhoeven",
+      "email": "liam.verhoeven@nike.example",
+      "teamsUserId": "nike:teams:liam-verhoeven",
+      "dossierPath": "sharepoint/employee-EMP-048-liam-verhoeven.pdf"
+    },
+    {
+      "id": "nike:employee:dalia-vercammen",
+      "employeeId": "EMP-049",
+      "name": "Dalia Vercammen",
+      "email": "dalia.vercammen@nike.example",
+      "teamsUserId": "nike:teams:dalia-vercammen",
+      "dossierPath": "sharepoint/employee-EMP-049-dalia-vercammen.pdf"
+    },
+    {
+      "id": "nike:employee:anton-de-meyer",
+      "employeeId": "EMP-050",
+      "name": "Anton De Meyer",
+      "email": "anton.de.meyer@nike.example",
+      "teamsUserId": "nike:teams:anton-de-meyer",
+      "dossierPath": "sharepoint/employee-EMP-050-anton-de-meyer.pdf"
+    }
+  ],
+  "expectedMemories": [
+    {
+      "key": "employer",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "active",
+      "summary": "Abel works for Nike Belgium.",
+      "value": "Nike Belgium",
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        }
+      ]
+    },
+    {
+      "key": "base-salary",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "active",
+      "summary": "Abel has monthly base salary EUR 1800 in the dossier snapshot.",
+      "value": {
+        "amount": 1800,
+        "currency": "EUR",
+        "period": "month"
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        }
+      ],
+      "validFrom": "2026-09-01"
+    },
+    {
+      "key": "recorded-bicycle-compensation",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "active",
+      "summary": "The snapshot records EUR 50 bicycle compensation; the later payroll check still appears to show EUR 50.",
+      "value": {
+        "amount": 50,
+        "currency": "EUR",
+        "period": "month"
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-followup-20260928"
+        }
+      ],
+      "validFrom": "2026-09-01",
+      "uncertainty": "The later report does not confirm the final amount actually paid."
+    },
+    {
+      "key": "previous-address",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "superseded",
+      "summary": "Abel previously lived at the old address; retain this as historical evidence.",
+      "value": "14 Lantern Lane, 1000 Brussels (synthetic)",
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        },
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        }
+      ],
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-09-20"
+    },
+    {
+      "key": "previous-commute",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "superseded",
+      "summary": "The older dossier records a 5 km one-way bicycle commute.",
+      "value": {
+        "distanceKm": 5,
+        "basis": "one-way"
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        },
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        }
+      ],
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-09-20"
+    },
+    {
+      "key": "move",
+      "entityId": "nike:employee:abel",
+      "type": "event",
+      "status": "active",
+      "summary": "Abel moved on 2026-09-20 and notified HR by email the next day.",
+      "value": {
+        "oldAddress": "14 Lantern Lane, 1000 Brussels (synthetic)",
+        "newAddress": "82 Meadow Crescent, 3000 Leuven (synthetic)",
+        "effectiveDate": "2026-09-20"
+      },
+      "sources": [
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-ack-20260922"
+        }
+      ],
+      "occurredAt": "2026-09-20T00:00:00Z",
+      "notifiedAt": "2026-09-21T07:35:00Z"
+    },
+    {
+      "key": "current-address",
+      "entityId": "nike:employee:abel",
+      "type": "fact",
+      "status": "active",
+      "summary": "The new home address is current from 2026-09-20.",
+      "value": "82 Meadow Crescent, 3000 Leuven (synthetic)",
+      "sources": [
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-ack-20260922"
+        }
+      ],
+      "validFrom": "2026-09-20"
+    },
+    {
+      "key": "commute-change",
+      "entityId": "nike:employee:abel",
+      "type": "event",
+      "status": "active",
+      "summary": "The one-way bicycle commute increased from about 5 km to about 15 km, approximately 10 km longer.",
+      "value": {
+        "previousKm": 5,
+        "currentKm": 15,
+        "increaseKm": 10,
+        "approximate": true,
+        "basis": "one-way"
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        },
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        }
+      ],
+      "occurredAt": "2026-09-20T00:00:00Z",
+      "validFrom": "2026-09-20",
+      "acceptableTypes": [
+        "event",
+        "context",
+        "fact"
+      ]
+    },
+    {
+      "key": "hr-acknowledgment",
+      "entityId": "nike:employee:abel",
+      "type": "event",
+      "status": "active",
+      "summary": "HR acknowledged the address change.",
+      "value": {
+        "actor": "Sarah Van Doren",
+        "effectiveDate": "2026-09-20"
+      },
+      "sources": [
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-ack-20260922"
+        },
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        }
+      ],
+      "occurredAt": "2026-09-22T08:40:00Z",
+      "acceptableTypes": [
+        "event",
+        "context"
+      ]
+    },
+    {
+      "key": "hr-commitment",
+      "entityId": "nike:employee:abel",
+      "type": "commitment",
+      "status": "active",
+      "summary": "HR committed to update the dossier and pass the address and bicycle-commute change to SD Worx.",
+      "value": {
+        "actor": "Sarah Van Doren",
+        "recipient": "SD Worx",
+        "fulfilled": null
+      },
+      "sources": [
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-commitment-20260922"
+        }
+      ],
+      "occurredAt": "2026-09-22T08:43:00Z",
+      "uncertainty": "An acknowledgment and promise do not prove a completed update."
+    },
+    {
+      "key": "unprocessed-update",
+      "entityId": "nike:employee:abel",
+      "type": "issue",
+      "status": "uncertain",
+      "summary": "Later evidence suggests the address and commute update was not carried through; confirmation remains missing.",
+      "value": {
+        "state": "open",
+        "processingConfirmed": false,
+        "reportedRecordedAddress": "14 Lantern Lane, 1000 Brussels (synthetic)",
+        "reportedBicycleCompensation": 50
+      },
+      "sources": [
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-followup-20260928"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-still-open-20260928"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-commitment-20260922"
+        }
+      ],
+      "acceptableStatuses": [
+        "active",
+        "uncertain"
+      ],
+      "occurredAt": "2026-09-28T10:20:00Z",
+      "uncertainty": "Apparent failure, pending payroll confirmation. Do not convert it into a proven failure or resolution."
+    },
+    {
+      "key": "mobility-policy",
+      "entityId": "nike:employee:abel",
+      "type": "context",
+      "status": "active",
+      "summary": "The synthetic policy band for a regular one-way bicycle commute of at least 10 km is EUR 80 per month.",
+      "value": {
+        "currency": "EUR",
+        "period": "month",
+        "bands": [
+          {
+            "minKm": 0,
+            "maxKmExclusive": 10,
+            "amount": 50
+          },
+          {
+            "minKm": 10,
+            "maxKmExclusive": null,
+            "amount": 80
+          }
+        ]
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/mobility-policy-2026-09.pdf"
+        }
+      ],
+      "validFrom": "2026-09-01",
+      "scope": "Nike Belgium policy; may be linked to Abel instead of duplicated per employee."
+    },
+    {
+      "key": "supported-bicycle-compensation",
+      "entityId": "nike:employee:abel",
+      "type": "context",
+      "status": "uncertain",
+      "summary": "Combining the new commute with the synthetic policy supports potential EUR 80 monthly bicycle compensation.",
+      "value": {
+        "amount": 80,
+        "currency": "EUR",
+        "period": "month",
+        "oneWayDistanceKm": 15
+      },
+      "sources": [
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        },
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/mobility-policy-2026-09.pdf"
+        }
+      ],
+      "acceptableStatuses": [
+        "active",
+        "uncertain"
+      ],
+      "validFrom": "2026-09-20",
+      "derived": true,
+      "uncertainty": "Policy-based expectation; no source confirms payroll has applied it."
+    },
+    {
+      "key": "potential-discrepancy",
+      "entityId": "nike:employee:abel",
+      "type": "issue",
+      "status": "uncertain",
+      "summary": "There may be a EUR 30 monthly discrepancy between the recorded EUR 50 and policy-supported EUR 80 compensation.",
+      "value": {
+        "recordedAmount": 50,
+        "policySupportedAmount": 80,
+        "potentialDifference": 30,
+        "currency": "EUR",
+        "period": "month",
+        "confirmedUnderpayment": false
+      },
+      "sources": [
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/employee-EMP-001-abel.pdf"
+        },
+        {
+          "system": "gmail",
+          "path": "gmail/2026-09-21-abel-address-change.txt",
+          "messageId": "nike-gmail-abel-move-20260921@nike.example"
+        },
+        {
+          "system": "teams",
+          "path": "teams/hr-payroll-september.json",
+          "messageId": "nike-teams-abel-followup-20260928"
+        },
+        {
+          "system": "sharepoint",
+          "path": "sharepoint/mobility-policy-2026-09.pdf"
+        }
+      ],
+      "acceptableStatuses": [
+        "active",
+        "uncertain"
+      ],
+      "validFrom": "2026-09-20",
+      "derived": true,
+      "uncertainty": "Open potential discrepancy, not a confirmed underpayment."
+    }
+  ],
+  "expectedRelations": [
+    {
+      "from": "current-address",
+      "type": "supersedes",
+      "to": "previous-address"
+    },
+    {
+      "from": "move",
+      "type": "relates_to",
+      "to": "current-address"
+    },
+    {
+      "from": "hr-acknowledgment",
+      "type": "supports",
+      "to": "move"
+    },
+    {
+      "from": "hr-commitment",
+      "type": "relates_to",
+      "to": "move"
+    },
+    {
+      "from": "unprocessed-update",
+      "type": "relates_to",
+      "to": "hr-commitment"
+    },
+    {
+      "from": "potential-discrepancy",
+      "type": "relates_to",
+      "to": "unprocessed-update"
+    }
+  ],
+  "acceptance": {
+    "currentAddress": {
+      "value": "82 Meadow Crescent, 3000 Leuven (synthetic)",
+      "effectiveDate": "2026-09-20",
+      "previousAddress": "14 Lantern Lane, 1000 Brussels (synthetic)",
+      "sourcePaths": [
+        "gmail/2026-09-21-abel-address-change.txt",
+        "teams/hr-payroll-september.json"
+      ]
+    },
+    "recentChanges": [
+      "previous-address",
+      "move",
+      "current-address",
+      "commute-change",
+      "hr-acknowledgment",
+      "hr-commitment",
+      "unprocessed-update"
+    ],
+    "timelineDates": [
+      "2026-09-01",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-28"
+    ],
+    "openIssues": [
+      "unprocessed-update",
+      "potential-discrepancy"
+    ],
+    "requiredBehavior": [
+      "Resolve Abel, abel@nike.example, EMP-001 and nike:teams:abel to nike:employee:abel.",
+      "Return semantic memories with immutable source-version evidence, not lists of search hits.",
+      "Never return the old and new addresses as equally current.",
+      "Preserve the old address and dossier evidence after supersession.",
+      "Keep acknowledgment, commitment and unresolved update issue distinct.",
+      "Retain uncertainty; no source proves a final payroll correction or underpayment.",
+      "Skip unchanged source ingestion without creating duplicate memories.",
+      "Never ingest expected-memory.json, manifest.json, README.md or generator/test code."
+    ]
+  }
+}

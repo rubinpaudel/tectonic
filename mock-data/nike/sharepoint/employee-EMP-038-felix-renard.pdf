@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2128 >>
+stream
+0.12 0.25 0.32 rg
+0 830 595 12 re f
+0.12 0.35 0.43 rg BT /F2 10 Tf 1 0 0 1 48 788 Tm (NIKE BELGIUM / SYNTHETIC FIXTURE) Tj ET
+0.15 0.19 0.22 rg BT /F2 22 Tf 1 0 0 1 48 747 Tm (Employee dossier) Tj ET
+0.15 0.19 0.22 rg BT /F1 10 Tf 1 0 0 1 48 721 Tm (Nike Belgium | SD Worx service snapshot) Tj ET
+0.76 0.81 0.83 RG 0.7 w 48 701 m 547 701 l S
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 668 Tm (Employee ID: EMP-038) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 644 Tm (Entity ID: nike:employee:felix-renard) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 620 Tm (Name: Felix Renard) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 596 Tm (Email: felix.renard@nike.example) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 572 Tm (Teams user ID: nike:teams:felix-renard) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 548 Tm (Employer: Nike Belgium) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 524 Tm (Department: Store support) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 500 Tm (Location: Ghent) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 476 Tm (Address: 131 Maple Terrace, 9000 Ghent \(synthetic\)) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 452 Tm (Base salary: EUR 1925 / month) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 428 Tm (Bicycle compensation: EUR 80 / month) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 404 Tm (Bicycle commute one-way: 10 km) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 380 Tm (Snapshot date: 2026-09-01) Tj ET
+0.15 0.19 0.22 rg BT /F1 11 Tf 1 0 0 1 48 356 Tm (Employment start date: 2022-02-01) Tj ET
+0.15 0.19 0.22 rg BT /F1 10 Tf 1 0 0 1 48 332 Tm (Administrative snapshot prepared for SD Worx servicing Nike Belgium.) Tj ET
+0.15 0.19 0.22 rg BT /F1 10 Tf 1 0 0 1 48 312 Tm (This document records the dossier at the snapshot date.) Tj ET
+0.76 0.81 0.83 RG 0.7 w 48 130 m 547 130 l S
+0.15 0.19 0.22 rg BT /F1 9 Tf 1 0 0 1 48 110 Tm (Fictional people, amounts and addresses. Created for the TunnelVision POC.) Tj ET
+0.15 0.19 0.22 rg BT /F1 9 Tf 1 0 0 1 48 94 Tm (EMP-038 / snapshot 2026-09-01) Tj ET
+0.15 0.19 0.22 rg BT /F1 9 Tf 1 0 0 1 523 94 Tm (1 / 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2575
+%%EOF

@@ -1,0 +1,14 @@
+From: Simon Dubois <simon.dubois@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-17T13:10:00Z
+Message-ID: <nike-gmail-noise-010@nike.example>
+Subject: Delivery window confirmation
+Employee-ID: EMP-012
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The supplier confirmed the morning delivery window. I will ask the receiving team to keep one trolley free.
+
+Thanks,
+Simon Dubois
