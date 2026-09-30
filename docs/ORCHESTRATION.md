@@ -8,10 +8,10 @@ Integration branch: `rubin/tunnelvision-integration`.
 
 | Agent | Worktree | Ownership | Status | Blockers | Verification |
 | --- | --- | --- | --- | --- | --- |
-| A — Mock data | `41d6/tectonic` | `mock-data/`, `scripts/mock-data/` | Running | None identified | Pending |
-| B — Database | `6372/tectonic` | `packages/db/`, local Postgres configuration | Running | Docker startup resolved | Pending |
+| A — Mock data | `41d6/tectonic` | `mock-data/`, `scripts/mock-data/` | Merged | None | 80 sources, 50 employees, generator validation passed |
+| B — Database | `6372/tectonic` | `packages/db/`, local Postgres configuration | Merged | None | Migrations applied; dedicated integration suite exercised |
 | C — Ingestion and memory | `98d8/tectonic` | `packages/ingestion/`, `packages/memory/`, `apps/ingest-cli/` | Running | None identified | Pending |
-| D — MCP | `cd3a/tectonic` | `apps/mcp-server/` | Running | None identified | Pending |
+| D — MCP | `cd3a/tectonic` | `apps/mcp-server/` | Merged | None | SDK transport tests and local discovery |
 
 Worktrees live beneath `/Users/rubinpaudel/.codex/worktrees/`. Implementation
 chat IDs are A `01a0f3ef-4251-7ad0-80b0-2a8a6b08f025`,
@@ -63,3 +63,15 @@ Only approved files in `gmail/`, `sharepoint/`, and `teams/` are ingested.
 10. Provide a demo under three minutes and external connection instructions.
 
 No public tunnel or external credentials are configured automatically.
+
+## Final integration commands
+
+`pnpm demo:up` starts Postgres, builds, migrates, ingests Nike, and keeps MCP
+running. Individual commands: `db:up`, `db:migrate`, `ingest:nike`, and `mcp`.
+`pnpm typecheck` also checks every available package test configuration.
+
+`pnpm test:acceptance` compares the semantic oracle with the real HTTP MCP
+responses across all ten tools. `--reingest` retries unchanged inputs twice
+with fresh repository instances and verifies stable database counts. It never
+resets the demo database. At 20:29 UTC the listener's discovery passed, but
+the initial full acceptance attempt awaited Nike ingestion.

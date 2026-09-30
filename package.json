@@ -9,9 +9,17 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "typecheck": "tsc --build && tsc --project packages/core/tsconfig.test.json",
+    "typecheck": "tsc --build && node scripts/integration/typecheck-tests.mjs",
+    "test:typeconfigs": "node scripts/integration/typecheck-tests.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "db:up": "docker compose -p tunnelvision up -d --wait postgres",
+    "db:migrate": "node scripts/integration/run.mjs migrate",
+    "ingest": "node scripts/integration/run.mjs ingest",
+    "ingest:nike": "node scripts/integration/run.mjs ingest --tenant nike --path ./mock-data/nike",
+    "mcp": "node scripts/integration/run.mjs mcp",
+    "demo:up": "node scripts/integration/run.mjs demo",
+    "test:acceptance": "node scripts/integration/acceptance.mjs"
   },
   "devDependencies": {
     "@types/node": "22.20.4",

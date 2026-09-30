@@ -1,8 +1,8 @@
 # Connect TunnelVision through MCP
 
 TunnelVision serves read-only organisational memory over standard MCP. The
-planned local HTTP endpoint is `http://127.0.0.1:3001/mcp`. Run the demo and its
-MCP smoke test before configuring an external client. The ingestion process
+local HTTP endpoint is `http://127.0.0.1:3001/mcp`. Run `pnpm demo:up` and
+`pnpm test:acceptance` before configuring an external client. The ingestion process
 persists memory ahead of requests; MCP only reads it.
 
 ## ChatGPT private connection
@@ -35,8 +35,10 @@ directly. Start with `list_clients`, then
 `get_entity_memory({tenant: "nike", entity_id: "nike:employee:abel"})`.
 
 The server also supports compact timeline, open-issue, related-memory, and
-immutable-evidence reads. Follow the runtime README for supported local stdio
-configuration once integration is complete.
+immutable-evidence reads. See [the runtime README](../apps/mcp-server/README.md)
+for local stdio configuration. Build first, then run
+`node apps/mcp-server/dist/main.js --stdio` with `DATABASE_URL` set.
+`pnpm mcp` starts the HTTP listener.
 
 ## Connection status
 
