@@ -1,0 +1,14 @@
+From: Oscar Leclerc <oscar.leclerc@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-21T13:10:00Z
+Message-ID: <nike-gmail-noise-014@nike.example>
+Subject: Team lunch headcount
+Employee-ID: EMP-016
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+I will join the team lunch and would like a vegetarian option. Please count me in for the final booking.
+
+Thanks,
+Oscar Leclerc

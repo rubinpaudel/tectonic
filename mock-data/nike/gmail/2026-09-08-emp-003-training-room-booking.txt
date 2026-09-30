@@ -1,0 +1,14 @@
+From: Milan De Ruyter <milan.de.ruyter@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-08T08:10:00Z
+Message-ID: <nike-gmail-noise-001@nike.example>
+Subject: Training room booking
+Employee-ID: EMP-003
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+Could we use the small meeting room for Thursday product training? The stock team expects eight attendees.
+
+Thanks,
+Milan De Ruyter

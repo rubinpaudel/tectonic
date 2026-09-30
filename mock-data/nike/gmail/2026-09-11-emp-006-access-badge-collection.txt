@@ -1,0 +1,14 @@
+From: Emma Vandenberg <emma.vandenberg@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-11T13:10:00Z
+Message-ID: <nike-gmail-noise-004@nike.example>
+Subject: Access badge collection
+Employee-ID: EMP-006
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+My replacement access badge is ready at reception. I will collect it during the next office visit.
+
+Thanks,
+Emma Vandenberg

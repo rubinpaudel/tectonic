@@ -1,0 +1,14 @@
+From: Jade Van Acker <jade.van.acker@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-20T08:10:00Z
+Message-ID: <nike-gmail-noise-013@nike.example>
+Subject: Display fixture measurements
+Employee-ID: EMP-015
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The revised display fits in the front bay. I will bring the measurements to the merchandising review.
+
+Thanks,
+Jade Van Acker

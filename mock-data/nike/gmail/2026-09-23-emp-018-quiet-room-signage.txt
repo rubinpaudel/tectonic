@@ -1,0 +1,14 @@
+From: Elias Moreau <elias.moreau@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-23T13:10:00Z
+Message-ID: <nike-gmail-noise-016@nike.example>
+Subject: Quiet room signage
+Employee-ID: EMP-018
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The new quiet-room signs use the agreed wording. Could we put them up after the all-hands session?
+
+Thanks,
+Elias Moreau
