@@ -1,0 +1,37 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.turbo/
+
+# Build and test output
+build/
+dist/
+out/
+target/
+.next/
+coverage/
+.nyc_output/
+
+# Logs and editor temporary files
+*.log
+*.swp
+*.swo
+*~
