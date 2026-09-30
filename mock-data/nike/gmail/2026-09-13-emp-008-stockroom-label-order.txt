@@ -1,0 +1,14 @@
+From: Lotte Claessen <lotte.claessen@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-13T13:10:00Z
+Message-ID: <nike-gmail-noise-006@nike.example>
+Subject: Stockroom label order
+Employee-ID: EMP-008
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+We need one box of medium shelf labels and two rolls for the packing desk. I have attached the internal item numbers in the shared order sheet.
+
+Thanks,
+Lotte Claessen

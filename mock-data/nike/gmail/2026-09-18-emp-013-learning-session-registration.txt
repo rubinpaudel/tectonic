@@ -1,0 +1,14 @@
+From: Amina El Idrissi <amina.el.idrissi@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-18T08:10:00Z
+Message-ID: <nike-gmail-noise-011@nike.example>
+Subject: Learning session registration
+Employee-ID: EMP-013
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+Please reserve one place for me in the product-knowledge learning session. The late-morning slot works best.
+
+Thanks,
+Amina El Idrissi

@@ -1,0 +1,14 @@
+From: Sofia Vermeer <sofia.vermeer@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-26T08:10:00Z
+Message-ID: <nike-gmail-noise-019@nike.example>
+Subject: Refreshments for workshop
+Employee-ID: EMP-021
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The workshop needs water, fruit and paper cups. I can collect the order from reception before the first break.
+
+Thanks,
+Sofia Vermeer

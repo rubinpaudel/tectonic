@@ -1,0 +1,14 @@
+From: Nora De Smet <nora.de.smet@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-16T08:10:00Z
+Message-ID: <nike-gmail-noise-009@nike.example>
+Subject: Customer return packaging
+Employee-ID: EMP-011
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The reusable packaging samples arrived today. We can compare them in the next store-support meeting.
+
+Thanks,
+Nora De Smet

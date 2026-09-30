@@ -1,0 +1,19 @@
+From: Abel <abel@nike.example>
+To: Sarah Van Doren <sarah.van.doren@nike.example>
+Date: 2026-09-21T07:35:00Z
+Message-ID: <nike-gmail-abel-move-20260921@nike.example>
+Subject: Home address change effective 2026-09-20
+Employee-ID: EMP-001
+Content-Type: text/plain; charset=utf-8
+
+Hi Sarah,
+
+I moved on 2026-09-20. My previous address was 14 Lantern Lane, 1000 Brussels (synthetic).
+My new address is 82 Meadow Crescent, 3000 Leuven (synthetic); please use it effective 2026-09-20.
+
+My bicycle commute to work used to be about 5 km one-way. It is now approximately 15 km one-way, so about 10 km longer. I still cycle regularly.
+Could you update my contact details and let the relevant team know about the commute change?
+
+Thanks,
+Abel
+Employee ID: EMP-001

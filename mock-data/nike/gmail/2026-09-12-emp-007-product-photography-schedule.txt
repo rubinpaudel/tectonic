@@ -1,0 +1,14 @@
+From: Youssef Benali <youssef.benali@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-12T08:10:00Z
+Message-ID: <nike-gmail-noise-005@nike.example>
+Subject: Product photography schedule
+Employee-ID: EMP-007
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The sample rack is ready for photography. Can the studio reserve thirty minutes after lunch?
+
+Thanks,
+Youssef Benali

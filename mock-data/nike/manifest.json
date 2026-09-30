@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "acceptanceOnly": true,
+  "mustNeverBeIngested": true,
+  "generator": "scripts/mock-data/generate.mjs",
+  "fixtureDate": "2026-09-30",
+  "employeeCount": 50,
+  "sourceCounts": {
+    "gmail": 26,
+    "sharepoint": 51,
+    "teams": 3,
+    "total": 80
+  },
+  "teamsMessageCount": 64,
+  "sourceFiles": [
+    {
+      "path": "gmail/2026-09-08-emp-003-training-room-booking.txt",
+      "system": "gmail",
+      "bytes": 414,
+      "sha256": "ee570651e72806a5bcdd7d259d4b8cda3f438a00b0abfde590a1d71b92524315"
+    },
+    {
+      "path": "gmail/2026-09-08-emp-023-desk-booking-reminder.txt",
+      "system": "gmail",
+      "bytes": 418,
+      "sha256": "f511a4cbf8014aaad52e8cf02fb227fb3c045553cbd78018d9ad38906f0adeaf"
+    },
+    {
+      "path": "gmail/2026-09-09-emp-004-store-opening-checklist.txt",
+      "system": "gmail",
+      "bytes": 398,
+      "sha256": "b12dab63911a035dd73f9d4745d5799e58e5c21f950ab754317eefc63c2e5baf"
+    },
+    {
+      "path": "gmail/2026-09-09-emp-024-recycling-collection.txt",
+      "system": "gmail",
+      "bytes": 422,
+      "sha256": "6d79a85a16377c643340bad2f69f9a80ef9cd60b597d6cf4e4d3b9a0b0c707f4"
+    },
+    {
+      "path": "gmail/2026-09-10-emp-005-september-volunteering-afternoon.txt",
+      "system": "gmail",
+      "bytes": 427,
+      "sha256": "028f74071f799ae7110cbc90949da946280b1a35cfefa76e602db8f8e3c2a9e8"
+    },
+    {
+      "path": "gmail/2026-09-10-emp-025-internal-newsletter-draft.txt",
+      "system": "gmail",
+      "bytes": 434,
+      "sha256": "d3318512207ee3fb3ae3baba30d20ee3942309730c39637e8fb14de9e77c880d"
+    },
+    {
+      "path": "gmail/2026-09-11-emp-006-access-badge-collection.txt",
+      "system": "gmail",
+      "bytes": 404,
+      "sha256": "a3bf463664d9c92e2db12ecbbae8db90322d4e8c6e438e452ddc8805f6d69643"
+    },
+    {
+      "path": "gmail/2026-09-11-emp-026-av-equipment-check.txt",
+      "system": "gmail",
+      "bytes": 416,
+      "sha256": "80d1764f424fca2cb888c1cf9e2c2b777b64aaf42f6117622d577b9771ab8545"
+    },
+    {
+      "path": "gmail/2026-09-12-emp-007-product-photography-schedule.txt",
+      "system": "gmail",
+      "bytes": 404,
+      "sha256": "8312b7805daaf4337074cebc55af102b3b9d674e0432b541d9412c2f9877580c"
+    },
+    {
+      "path": "gmail/2026-09-12-emp-027-store-support-rota-review.txt",
+      "system": "gmail",
+      "bytes": 420,
+      "sha256": "75dea655f00735b0287daf6bc65b7454c4e1ce975df07c1ebfbf03325cf09c35"
+    },
+    {
+      "path": "gmail/2026-09-13-emp-008-stockroom-label-order.txt",
+      "system": "gmail",
+      "bytes": 444,
+      "sha256": "adb292a8d94f834119ba9cfcd07fd3bf5abd955bd6fb1d670b41dda40e2848a9"
+    },
+    {
+      "path": "gmail/2026-09-14-emp-009-safety-briefing-slides.txt",
+      "system": "gmail",
+      "bytes": 421,
+      "sha256": "19110ef15973a4bd12d1271a97ef900fe4755c7f3bcd67e3c93509795df86f51"
+    },
+    {
+      "path": "gmail/2026-09-15-emp-010-coffee-machine-maintenance.txt",
+      "system": "gmail",
+      "bytes": 411,
+      "sha256": "49525ce8a6cb767f8f7faf5d3bca9cc297d23c495c39a943173270d7c4653a79"
+    },
+    {
+      "path": "gmail/2026-09-16-emp-011-customer-return-packaging.txt",
+      "system": "gmail",
+      "bytes": 403,
+      "sha256": "ac020e5acfe2fa9f5490414081435db337ab23b8baa8c183046f84e0903ea199"
+    },
+    {
+      "path": "gmail/2026-09-17-emp-012-delivery-window-confirmation.txt",
+      "system": "gmail",
+      "bytes": 409,
+      "sha256": "33e097bbae8cc0cebc8727543bf50d649009dddbe1d4d1d24a84b1aa92c20341"
+    },
+    {
+      "path": "gmail/2026-09-18-emp-013-learning-session-registration.txt",
+      "system": "gmail",
+      "bytes": 427,
+      "sha256": "a310512b281a5ee45ef28febe48f6d527ad5db0fcb1c09f1551c86dc46caab50"
+    },
+    {
+      "path": "gmail/2026-09-19-emp-014-printer-toner-received.txt",
+      "system": "gmail",
+      "bytes": 409,
+      "sha256": "eaf69dc7aad2b1c1b03e11456b868f2cfc524645cb8ff732be467662d048d86e"
+    },
+    {
+      "path": "gmail/2026-09-20-emp-015-display-fixture-measurements.txt",
+      "system": "gmail",
+      "bytes": 413,
+      "sha256": "af91e74a86858e78e12bedb7c089ec9265acb18efc7c8771a40b12c39700b1c9"
+    },
+    {
+      "path": "gmail/2026-09-21-abel-address-change.txt",
+      "system": "gmail",
+      "bytes": 753,
+      "sha256": "2681f127a02b75825381e6bb180b3a694063135c0da509aef752d2f3a05f7ef2"
+    },
+    {
+      "path": "gmail/2026-09-21-emp-016-team-lunch-headcount.txt",
+      "system": "gmail",
+      "bytes": 401,
+      "sha256": "6e98fafd88195b104e64b862e37078d3f29e30f3c2346a2e2b885e06fb6c7445"
+    },
+    {
+      "path": "gmail/2026-09-22-emp-017-warehouse-visitor-list.txt",
+      "system": "gmail",
+      "bytes": 411,
+      "sha256": "2230884bb308635c8f89ad76774c335475fe6a757f99ace6f9ce1b9b3bbd89f1"
+    },
+    {
+      "path": "gmail/2026-09-23-emp-018-quiet-room-signage.txt",
+      "system": "gmail",
+      "bytes": 390,
+      "sha256": "0ed0106284397a8934910471c80b8d9accc56321d56e571bb02aa7a9c3a439d8"
+    },
+    {
+      "path": "gmail/2026-09-24-emp-019-presentation-clicker-found.txt",
+      "system": "gmail",
+      "bytes": 407,
+      "sha256": "b9145d20cc82ac4e5612557257921b6fc58abbd9519e223fc2f08c9c7501e5b2"
+    },
+    {
+      "path": "gmail/2026-09-25-emp-020-retail-feedback-notes.txt",
+      "system": "gmail",
+      "bytes": 404,
+      "sha256": "32fb94f0018c6df254d530b89f20ed77b6e236cf86c440e6ad393e27660fd002"
+    },
+    {
+      "path": "gmail/2026-09-26-emp-021-refreshments-for-workshop.txt",
+      "system": "gmail",
+      "bytes": 416,
+      "sha256": "c2bdb01bf9467fcb329f94eeff25fffa47a024c7e997fea0693316dc420f8457"
+    },
+    {
+      "path": "gmail/2026-09-27-emp-022-sample-inventory-review.txt",
+      "system": "gmail",
+      "bytes": 420,
+      "sha256": "51191b62679dcd822dedc532d0eb8c33eaa5cb62e8cf2197966baca79431ad0a"
+    },
+    {
+      "path": "sharepoint/employee-EMP-001-abel.pdf",
+      "system": "sharepoint",
+      "bytes": 2754,
+      "sha256": "86292ce536663e432a501a9bdef950a938730f7e3c591fac3d03ef2ba830d60d"
+    },
+    {
+      "path": "sharepoint/employee-EMP-002-sarah-van-doren.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "cd84a65a76fc8014c2e7a5b0d4ad0bf8d3efdd3fde536027d402292dd3a463d3"
+    },
+    {
+      "path": "sharepoint/employee-EMP-003-milan-de-ruyter.pdf",
+      "system": "sharepoint",
+      "bytes": 2790,
+      "sha256": "c8e21e4bdc1dda2cb8ece05dba232400937adbe7239d26423e4ca1eea078dac6"
+    },
+    {
+      "path": "sharepoint/employee-EMP-004-noor-janssen.pdf",
+      "system": "sharepoint",
+      "bytes": 2780,
+      "sha256": "f9db9ab8bec0e715ff97145df70c109348afc22824fc3d86879dc46a216df93b"
+    },
+    {
+      "path": "sharepoint/employee-EMP-005-louis-verstraeten.pdf",
+      "system": "sharepoint",
+      "bytes": 2797,
+      "sha256": "f18076a4b15f3d10d9ec0139d20c64fcc0007b0abf400141f33d15467cb5839a"
+    },
+    {
+      "path": "sharepoint/employee-EMP-006-emma-vandenberg.pdf",
+      "system": "sharepoint",
+      "bytes": 2797,
+      "sha256": "26cccb21697c2a2a191dd5520f998f74a287e70ddb145979cff3eaae6b2cf064"
+    },
+    {
+      "path": "sharepoint/employee-EMP-007-youssef-benali.pdf",
+      "system": "sharepoint",
+      "bytes": 2789,
+      "sha256": "3c82fbf16bb1c1a84c423c3660f8392c3bbe3b8e85480a59efdb739f731bcce3"
+    },
+    {
+      "path": "sharepoint/employee-EMP-008-lotte-claessen.pdf",
+      "system": "sharepoint",
+      "bytes": 2786,
+      "sha256": "d3c18d4079ddcaa5a0f9c6bcd3edd726a636211091a8fafba0cf16b8a385be29"
+    },
+    {
+      "path": "sharepoint/employee-EMP-009-arthur-maes.pdf",
+      "system": "sharepoint",
+      "bytes": 2776,
+      "sha256": "270053fa2746b3c6d8eeafddb632f7669e32be88b705df72c55a50e84fadaf73"
+    },
+    {
+      "path": "sharepoint/employee-EMP-010-elise-laurent.pdf",
+      "system": "sharepoint",
+      "bytes": 2781,
+      "sha256": "cb849b7493d55a3a61e6df5f80680562e473f5dcc62e41296e432c47f6bb142f"
+    },
+    {
+      "path": "sharepoint/employee-EMP-011-nora-de-smet.pdf",
+      "system": "sharepoint",
+      "bytes": 2785,
+      "sha256": "a178e6f2c1a4d1959b91f9074b035550d1034276e955c936c3e75d80539d13b4"
+    },
+    {
+      "path": "sharepoint/employee-EMP-012-simon-dubois.pdf",
+      "system": "sharepoint",
+      "bytes": 2781,
+      "sha256": "412928bc925edef36bb196b31a38b742173c7b63adf8ce8bb4146babef133198"
+    },
+    {
+      "path": "sharepoint/employee-EMP-013-amina-el-idrissi.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "2bfb2deab5df83a1e96ac7ba09fab3456af008e46d1953f60414a49e4d9f2331"
+    },
+    {
+      "path": "sharepoint/employee-EMP-014-theo-willems.pdf",
+      "system": "sharepoint",
+      "bytes": 2780,
+      "sha256": "f9a5bffc6bff648dd352fb14579a483726a3f3fd3924e8d44f68b1e18f64789e"
+    },
+    {
+      "path": "sharepoint/employee-EMP-015-jade-van-acker.pdf",
+      "system": "sharepoint",
+      "bytes": 2785,
+      "sha256": "70afc853f0ea5942d8959265bff7d247170031a284825c45624d9bb60f1c28f6"
+    },
+    {
+      "path": "sharepoint/employee-EMP-016-oscar-leclerc.pdf",
+      "system": "sharepoint",
+      "bytes": 2789,
+      "sha256": "42bb0bcfaf97c56d112726d2cfc3e4bdc1081a1503287167ccdae1ce0d581ec0"
+    },
+    {
+      "path": "sharepoint/employee-EMP-017-lina-declercq.pdf",
+      "system": "sharepoint",
+      "bytes": 2785,
+      "sha256": "1d25a8cd0f64aa9b01f3f7da404ce5cbfd5c4950607c8af91c56a31162331c40"
+    },
+    {
+      "path": "sharepoint/employee-EMP-018-elias-moreau.pdf",
+      "system": "sharepoint",
+      "bytes": 2778,
+      "sha256": "b4217d9924542c0c2530358524ac0ffc0b0965b0ef056331a9e3ff8221532dab"
+    },
+    {
+      "path": "sharepoint/employee-EMP-019-mila-wouters.pdf",
+      "system": "sharepoint",
+      "bytes": 2780,
+      "sha256": "a2d6b380641d9c014a33d35f9763a9243fdc9e2ca982a28d7d3ddd25df27433f"
+    },
+    {
+      "path": "sharepoint/employee-EMP-020-adam-verbeek.pdf",
+      "system": "sharepoint",
+      "bytes": 2777,
+      "sha256": "30fb2b2e98bb8c4463358d8b1fd090717ffa1dc111dfa17a970eef6f99932309"
+    },
+    {
+      "path": "sharepoint/employee-EMP-021-sofia-vermeer.pdf",
+      "system": "sharepoint",
+      "bytes": 2789,
+      "sha256": "99a3455d702a9379ce60b52f2a7f125f3db1961050c79c50e27a72f120fc286b"
+    },
+    {
+      "path": "sharepoint/employee-EMP-022-victor-peeters.pdf",
+      "system": "sharepoint",
+      "bytes": 2789,
+      "sha256": "b7dd706ec95bd9c04d66cc24783a21303ee21dfbd4f83705dd8eccd22edd9322"
+    },
+    {
+      "path": "sharepoint/employee-EMP-023-ines-martens.pdf",
+      "system": "sharepoint",
+      "bytes": 2778,
+      "sha256": "78df78d6c66bdbc087f9d0ce7d2daee0ca8840be196010273ae45ad343afd5eb"
+    },
+    {
+      "path": "sharepoint/employee-EMP-024-lucas-delcourt.pdf",
+      "system": "sharepoint",
+      "bytes": 2789,
+      "sha256": "0bda34cbcc33888daffec0f585cd611786f9ab353267aec43d4f3ae808953a90"
+    },
+    {
+      "path": "sharepoint/employee-EMP-025-aya-van-hove.pdf",
+      "system": "sharepoint",
+      "bytes": 2776,
+      "sha256": "3836b7cf857cb488a94b65d15f59bbc08ee4b105a0960a19450b88711f49ca45"
+    },
+    {
+      "path": "sharepoint/employee-EMP-026-finn-de-clercq.pdf",
+      "system": "sharepoint",
+      "bytes": 2793,
+      "sha256": "5f2355c30ee75579e304a0541ac5b6584dd448876bd1779eb434dccc6a1973c3"
+    },
+    {
+      "path": "sharepoint/employee-EMP-027-zoe-lambert.pdf",
+      "system": "sharepoint",
+      "bytes": 2777,
+      "sha256": "e6627a3f53d9efc47542a1e0c87b8046312a2e8e09adb7b2ad0532136b0dc5ff"
+    },
+    {
+      "path": "sharepoint/employee-EMP-028-rayan-deschamps.pdf",
+      "system": "sharepoint",
+      "bytes": 2791,
+      "sha256": "71616e87ab4888d597a2f7cd51b72cb10b3b69f105157c43949fcbe538899862"
+    },
+    {
+      "path": "sharepoint/employee-EMP-029-louise-van-damme.pdf",
+      "system": "sharepoint",
+      "bytes": 2798,
+      "sha256": "3c66809f5aa5d9885af0406d12464aacdd7f9b9fad9a6868e1ed4d95832dbe61"
+    },
+    {
+      "path": "sharepoint/employee-EMP-030-basile-jacobs.pdf",
+      "system": "sharepoint",
+      "bytes": 2781,
+      "sha256": "6ff2c1c632837bcd52d63e8f00066db3877ac8061bbe7278636bbfb59335e420"
+    },
+    {
+      "path": "sharepoint/employee-EMP-031-iris-de-wilde.pdf",
+      "system": "sharepoint",
+      "bytes": 2790,
+      "sha256": "f7b00e8ba7c5a37e3c601e935a7aa323e933275c38d53ff31b6d05215ee7128a"
+    },
+    {
+      "path": "sharepoint/employee-EMP-032-nolan-lefevre.pdf",
+      "system": "sharepoint",
+      "bytes": 2786,
+      "sha256": "0e49709226d6ff8ec7bd0b909a2474b0e7bf0a9857437b4b259d4b3cbd142854"
+    },
+    {
+      "path": "sharepoint/employee-EMP-033-hana-bosmans.pdf",
+      "system": "sharepoint",
+      "bytes": 2779,
+      "sha256": "4a0392f7910f602d02f8ccf2934ee40825069be5b5da2e6659fd9c1010bc7ed9"
+    },
+    {
+      "path": "sharepoint/employee-EMP-034-leon-van-den-berg.pdf",
+      "system": "sharepoint",
+      "bytes": 2802,
+      "sha256": "39148a57f566cdfebf627f6a05c386605cb599504c202afbff89085eeee8e0ad"
+    },
+    {
+      "path": "sharepoint/employee-EMP-035-maya-dupont.pdf",
+      "system": "sharepoint",
+      "bytes": 2773,
+      "sha256": "551eea3606589494d0f893ebcdf4c4b6c8a8c1b2618118b97542bdceb913e6c4"
+    },
+    {
+      "path": "sharepoint/employee-EMP-036-samir-goossens.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "a8bf633c7ae1b8f85f92153922bbf7a58767b99dbdcacd5bc4eb3d6a0dd5adcf"
+    },
+    {
+      "path": "sharepoint/employee-EMP-037-sofia-peeters.pdf",
+      "system": "sharepoint",
+      "bytes": 2786,
+      "sha256": "68ca762e3f458d693dee4d1fe849e45f10c0543ecab2ba88f6057bafff1ab2ee"
+    },
+    {
+      "path": "sharepoint/employee-EMP-038-felix-renard.pdf",
+      "system": "sharepoint",
+      "bytes": 2779,
+      "sha256": "b4274e2c79c5edf28b83f4014908406e8ad6b165e877d58fe486d39dbd56eed3"
+    },
+    {
+      "path": "sharepoint/employee-EMP-039-yara-de-vos.pdf",
+      "system": "sharepoint",
+      "bytes": 2778,
+      "sha256": "df7322c6331c1ca89595efb965cc32af0b54ffd9eba43109f7740572bb5575fb"
+    },
+    {
+      "path": "sharepoint/employee-EMP-040-hugo-mertens.pdf",
+      "system": "sharepoint",
+      "bytes": 2777,
+      "sha256": "44eb128eadd306d2fe7b3dca08dac5f41b4d07d9c9330cac29ffc7e38497cb20"
+    },
+    {
+      "path": "sharepoint/employee-EMP-041-clara-van-loon.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "1c1e5f1f3c4723814378fba84f0512cdfddf2be9b71a29a8b8a8d6de0ed58497"
+    },
+    {
+      "path": "sharepoint/employee-EMP-042-ibrahim-aerts.pdf",
+      "system": "sharepoint",
+      "bytes": 2787,
+      "sha256": "5054aeaadaf15e8031dde45138de8f84701af2d1c34ddfd75ef82dba51c01851"
+    },
+    {
+      "path": "sharepoint/employee-EMP-043-nina-de-baets.pdf",
+      "system": "sharepoint",
+      "bytes": 2782,
+      "sha256": "3619e28c04115b7e95310a10a70272d72ae0530714cadf53b9691237b73864f1"
+    },
+    {
+      "path": "sharepoint/employee-EMP-044-thomas-simonet.pdf",
+      "system": "sharepoint",
+      "bytes": 2790,
+      "sha256": "f844d675bb987b04b948c9fb82ed6e08369e29413e93008aea861c5057fae1b3"
+    },
+    {
+      "path": "sharepoint/employee-EMP-045-sara-van-es.pdf",
+      "system": "sharepoint",
+      "bytes": 2773,
+      "sha256": "4eff092596bce0d1b75890dfe89a520557fb6977d327a6b0dbb8e13a7391e8da"
+    },
+    {
+      "path": "sharepoint/employee-EMP-046-mathis-dierckx.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "791357a5e67a52aa90f2a5a75038cbe03d88c8d1ee04a3364f009e52e8b9cf31"
+    },
+    {
+      "path": "sharepoint/employee-EMP-047-amelie-rousseau.pdf",
+      "system": "sharepoint",
+      "bytes": 2795,
+      "sha256": "a3dd6e0c62cdd5507eb3e550dca8cf2e00fb5f36209ccb0cef18b0aecc91e37b"
+    },
+    {
+      "path": "sharepoint/employee-EMP-048-liam-verhoeven.pdf",
+      "system": "sharepoint",
+      "bytes": 2786,
+      "sha256": "a83278804f05f26adcd1411e6bbcf785a876a3c7299ac6f1a4f9f9a57131e330"
+    },
+    {
+      "path": "sharepoint/employee-EMP-049-dalia-vercammen.pdf",
+      "system": "sharepoint",
+      "bytes": 2794,
+      "sha256": "aeb8056e2b7502eff5111d00101464dc4bd0f3fad0d61ab066f6f5206a067e6f"
+    },
+    {
+      "path": "sharepoint/employee-EMP-050-anton-de-meyer.pdf",
+      "system": "sharepoint",
+      "bytes": 2785,
+      "sha256": "7b5af182730c67f20d5641043186793c2e94de67656de74201500f5be9e87186"
+    },
+    {
+      "path": "sharepoint/mobility-policy-2026-09.pdf",
+      "system": "sharepoint",
+      "bytes": 2926,
+      "sha256": "212e2a7da5a873f41e77acc3a9024382dfaf2e135da899774ebcc6bf60dbea36"
+    },
+    {
+      "path": "teams/benefits-september.json",
+      "system": "teams",
+      "bytes": 7001,
+      "sha256": "01310e10df5a8b3cd0235532d61e65e6c225440f48068c4eb5c1df81f3323e18"
+    },
+    {
+      "path": "teams/hr-payroll-september.json",
+      "system": "teams",
+      "bytes": 13359,
+      "sha256": "7e99175887c6626dcb50e7ff1a633ea3d2a7b5522483111d01fc8c3c4d858fc8"
+    },
+    {
+      "path": "teams/retail-operations-september.json",
+      "system": "teams",
+      "bytes": 8720,
+      "sha256": "2801ee3b9da8e67fcb910243f98feb2203d2f3da8437f931d85ef75e54ced542"
+    }
+  ]
+}

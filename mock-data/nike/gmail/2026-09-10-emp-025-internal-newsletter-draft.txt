@@ -1,0 +1,14 @@
+From: Aya Van Hove <aya.van.hove@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-10T08:10:00Z
+Message-ID: <nike-gmail-noise-023@nike.example>
+Subject: Internal newsletter draft
+Employee-ID: EMP-025
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The newsletter draft includes the volunteering photos and training calendar. I will send the final copy after the editor checks it.
+
+Thanks,
+Aya Van Hove

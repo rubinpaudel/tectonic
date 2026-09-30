@@ -1,0 +1,14 @@
+From: Louis Verstraeten <louis.verstraeten@nike.example>
+To: People Services <people.services@nike.example>
+Date: 2026-09-10T08:10:00Z
+Message-ID: <nike-gmail-noise-003@nike.example>
+Subject: September volunteering afternoon
+Employee-ID: EMP-005
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+I can join the volunteering afternoon after the morning briefing. Please add my name to the headcount.
+
+Thanks,
+Louis Verstraeten

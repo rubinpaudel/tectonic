@@ -1,0 +1,14 @@
+From: Noor Janssen <noor.janssen@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-09T13:10:00Z
+Message-ID: <nike-gmail-noise-002@nike.example>
+Subject: Store opening checklist
+Employee-ID: EMP-004
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The opening checklist is in the shared folder. Please confirm who can bring the spare display labels.
+
+Thanks,
+Noor Janssen

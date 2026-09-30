@@ -1,0 +1,14 @@
+From: Adam Verbeek <adam.verbeek@nike.example>
+To: Store Support <store.support@nike.example>
+Date: 2026-09-25T13:10:00Z
+Message-ID: <nike-gmail-noise-018@nike.example>
+Subject: Retail feedback notes
+Employee-ID: EMP-020
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+The store feedback notes cover the sample wall and queue signage. There are no urgent requests for this week.
+
+Thanks,
+Adam Verbeek
