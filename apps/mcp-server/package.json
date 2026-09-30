@@ -1,0 +1,16 @@
+{
+  "name": "@tunnelvision/mcp-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "@tunnelvision/core": "workspace:*",
+    "@tunnelvision/db": "workspace:*",
+    "zod": "4.6.5"
+  }
+}

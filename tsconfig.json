@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/db"
+    },
+    {
+      "path": "packages/ingestion"
+    },
+    {
+      "path": "packages/memory"
+    },
+    {
+      "path": "apps/ingest-cli"
+    },
+    {
+      "path": "apps/mcp-server"
+    }
+  ]
+}

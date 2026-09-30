@@ -1,0 +1,16 @@
+{
+  "name": "@tunnelvision/ingest-cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  },
+  "dependencies": {
+    "@tunnelvision/core": "workspace:*",
+    "@tunnelvision/db": "workspace:*",
+    "@tunnelvision/ingestion": "workspace:*",
+    "@tunnelvision/memory": "workspace:*"
+  }
+}
